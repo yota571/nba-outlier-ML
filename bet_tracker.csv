@@ -1,0 +1,19 @@
+bet_category,player,team,opponent,market,line,bet_side,bet_odds,predicted_score,confidence_pct,game_time,game_key,model_spread,win_prob_pct,actual_stat,result
+player_prop,Paul George,PHI,MIL,fs,20.5,Over,-9900.0,34.82,100.0,2025-11-21 01:10:00+00:00,PHI vs MIL,,,34.5,Hit
+player_prop,Zaccharie Risacher,ATL,SAS,fs,19.5,Over,-400.0,23.91,88.0,2025-11-21 01:10:00+00:00,ATL vs SAS,,,23.6,Hit
+player_prop,Tyrese Maxey,PHI,MIL,fs,44.5,Under,900.0,43.86,80.3,2025-11-21 01:10:00+00:00,PHI vs MIL,,,86.5,Miss
+player_prop,Keegan Murray,SAC,MEM,pra,16.5,Over,-233.0,19.72,76.9,2025-11-21 01:10:00+00:00,SAC vs MEM,,,25.0,Hit
+player_prop,Tre Jones,CHI,MIA,fs,20.0,Over,-9900.0,26.78,100.0,2025-11-22 01:10:00+00:00,CHI vs MIA,,,11.9,Miss
+game_spread,DEN,DEN,HOU,spread,0.1,favorite_spread,,,16.0,,DEN vs HOU,0.1,50.3,,
+game_spread,UTA,UTA,OKC,spread,3.1,favorite_spread,,,24.77142857142857,,OKC vs UTA,3.1,57.1,,
+player_prop,Keyonte George,UTA,OKC,fs,30.5,Over,-233.0,33.88,82.0,2025-11-22 03:10:00+00:00,UTA vs OKC,,,45.0,Hit
+player_prop,Saddiq Bey,NOP,DAL,fs,17.5,Over,-233.0,24.36,82.0,2025-11-22 01:40:00+00:00,NOP vs DAL,,,40.7,Hit
+game_spread,UTA,UTA,OKC,spread,3.9,favorite_spread,,,28.425,,OKC vs UTA,3.9,58.6,,
+player_prop,Miles Bridges,CHA,LAC,fs,35.5,Over,-900.0,36.92,81.5,2025-11-22 18:10:00+00:00,CHA vs LAC,,,28.6,Miss
+player_prop,Zach Edey,MEM,DAL,ra,9.5,Over,-150.0,11.6,76.0,2025-11-23 01:40:00+00:00,MEM vs DAL,,,1.0,Miss
+player_prop,Keyonte George,UTA,GSW,fs,34.5,No clear edge,,34.77,66.3,2025-11-25 03:10:00+00:00,UTA vs GSW,,,49.7,N/A
+player_prop,Kawhi Leonard,LAC,LAL,fs,33.5,Over,-233.0,41.22,82.0,2025-11-26 04:10:00+00:00,LAC vs LAL,,,29.5,Miss
+player_prop,Austin Reaves,LAL,LAC,fs,35.5,Over,-367.0,37.21,87.1,2025-11-26 04:10:00+00:00,LAL vs LAC,,,54.3,Hit
+player_prop,Kawhi Leonard,LAC,LAL,fs,33.5,Over,-250.0,40.76,82.9,2025-11-26 04:10:00+00:00,LAC vs LAL,,,29.5,Miss
+player_prop,Kel'el Ware,MIA,DET,fs,29.5,Over,-500.0,34.3,90.0,2025-11-30 01:10:00+00:00,MIA vs DET,,,24.4,Miss
+player_prop,Duncan Robinson,DET,MIA,fs,20.0,Over,-300.0,22.36,85.0,2025-11-30 01:10:00+00:00,DET vs MIA,,,36.5,Hit
