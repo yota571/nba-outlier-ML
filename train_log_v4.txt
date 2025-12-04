@@ -1,0 +1,6 @@
+[2025-12-03 09:01:17] ========== TRAIN MODELS V4 START ==========
+[2025-12-03 09:01:17] Loading data from prop_training_data.csv
+[2025-12-03 09:01:17] Loaded 19863 rows.
+[2025-12-03 09:01:17] Filtered from 19863 rows to 2552 rows after minutes/blowout/NaN filters.
+[2025-12-03 09:36:11] ========= TRAIN MODELS START =========
+[2025-12-03 09:36:11] Filtered 19863 -> 2552 rows.

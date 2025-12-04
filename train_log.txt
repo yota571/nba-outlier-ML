@@ -1,0 +1,2000 @@
+[Tue 11/25/2025  7:02:38.12] Starting over-model training... 
+=== NBA OVER-model training ===
+Loaded training data: prop_training_data.csv  (1619 rows)
+Traceback (most recent call last):
+  File "C:\nba_outlier_app\train_over_model.py", line 222, in <module>
+    main()
+    ~~~~^^
+  File "C:\nba_outlier_app\train_over_model.py", line 211, in main
+    X, y = prepare_dataset(df)
+           ~~~~~~~~~~~~~~~^^^^
+  File "C:\nba_outlier_app\train_over_model.py", line 99, in prepare_dataset
+    raise ValueError("No labeled rows found; nothing to train on.")
+ValueError: No labeled rows found; nothing to train on.
+[Tue 11/25/2025  7:02:46.26] Training finished. 
+[Tue 11/25/2025  8:00:01.00] Starting over-model training... 
+=== NBA OVER-model training ===
+Loaded training data: prop_training_data.csv  (1619 rows)
+Training on 1285 rows, 10 features
+
+=== Validation Results ===
+              precision    recall  f1-score   support
+
+           0      0.849     0.735     0.788       253
+           1      0.350     0.522     0.419        69
+
+    accuracy                          0.689       322
+   macro avg      0.599     0.628     0.603       322
+weighted avg      0.742     0.689     0.709       322
+
+ROC AUC: 0.683
+Baseline OVER rate in training data: 21.6%
+
+Saved model to: over_model.pkl
+Done.
+[Tue 11/25/2025  8:00:03.55] Training finished. 
+[Wed 11/26/2025  8:00:02.02] Starting over-model training... 
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['minutes_avg_last_n' 'minutes_avg_last_3' 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['minutes_avg_last_n' 'minutes_avg_last_3' 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['minutes_avg_last_n' 'minutes_avg_last_3' 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['minutes_avg_last_n' 'minutes_avg_last_3' 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['minutes_avg_last_n' 'minutes_avg_last_3' 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['minutes_avg_last_n' 'minutes_avg_last_3' 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['is_home' 'days_rest' 'minutes_avg_last_n' 'minutes_avg_last_3'
+ 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['is_home' 'days_rest' 'minutes_avg_last_n' 'minutes_avg_last_3'
+ 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['minutes_avg_last_n' 'minutes_avg_last_3' 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['minutes_avg_last_n' 'minutes_avg_last_3' 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['minutes_avg_last_n' 'minutes_avg_last_3' 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['minutes_avg_last_n' 'minutes_avg_last_3' 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['minutes_avg_last_n' 'minutes_avg_last_3' 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\impute\_base.py:653: UserWarning: Skipping features without any observed values: ['minutes_avg_last_n' 'minutes_avg_last_3' 'minutes_trend' 'stat_trend']. At least one non-missing value is needed for imputation with strategy='median'.
+  warnings.warn(
+Loaded 2449 rows from prop_training_data.csv
+Rows needing labels: 788
+Updated labels written back to prop_training_data.csv
+Labeled rows available for training: 1676
+Built opponent-level features (opp_actual_mean, opp_over_rate, opp_samples).
+Numeric features: ['season_avg', 'avg_last_main', 'over_rate_main', 'edge_last_main', 'avg_last_7', 'over_rate_last_7', 'edge_last_7', 'predicted_score', 'confidence_pct', 'line', 'is_home', 'days_rest', 'minutes_avg_last_n', 'minutes_avg_last_3', 'minutes_trend', 'stat_trend', 'opp_actual_mean', 'opp_over_rate', 'opp_samples']
+Global categorical features: ['market']
+Global model - Train size: 1340, Test size: 336
+
+Training GLOBAL model (all markets together)...
+GLOBAL - Test AUC:   0.499
+GLOBAL - Brier:      0.1692 (lower is better)
+GLOBAL - Accuracy:   79.2%
+GLOBAL - Probability bucket calibration (test set):
+  0.00�<0.50: 336 bets, 20.8% hits
+Saved global model to over_model.pkl
+
+Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+
+Training per-market model for 'points' (311 rows)...
+  Train size: 248, Test size: 63
+MARKET=points - Test AUC:   0.453
+MARKET=points - Brier:      0.2063 (lower is better)
+MARKET=points - Accuracy:   73.0%
+MARKET=points - Probability bucket calibration (test set):
+  0.00�<0.50: 62 bets, 25.8% hits
+  0.50�<0.55: 1 bets, 0.0% hits
+  Saved per-market model to over_model_points.pkl
+
+Training per-market model for 'rebounds' (309 rows)...
+  Train size: 247, Test size: 62
+MARKET=rebounds - Test AUC:   0.576
+MARKET=rebounds - Brier:      0.1134 (lower is better)
+MARKET=rebounds - Accuracy:   87.1%
+MARKET=rebounds - Probability bucket calibration (test set):
+  0.00�<0.50: 62 bets, 12.9% hits
+  Saved per-market model to over_model_rebounds.pkl
+
+Training per-market model for 'assists' (249 rows)...
+  Train size: 199, Test size: 50
+MARKET=assists - Test AUC:   0.530
+MARKET=assists - Brier:      0.1099 (lower is better)
+MARKET=assists - Accuracy:   88.0%
+MARKET=assists - Probability bucket calibration (test set):
+  0.00�<0.50: 50 bets, 12.0% hits
+  Saved per-market model to over_model_assists.pkl
+
+Training per-market model for 'pra' (344 rows)...
+  Train size: 275, Test size: 69
+MARKET=pra - Test AUC:   0.658
+MARKET=pra - Brier:      0.2019 (lower is better)
+MARKET=pra - Accuracy:   71.0%
+MARKET=pra - Probability bucket calibration (test set):
+  0.00�<0.50: 67 bets, 29.9% hits
+  0.50�<0.55: 1 bets, 100.0% hits
+  0.55�<0.60: 1 bets, 100.0% hits
+  Saved per-market model to over_model_pra.pkl
+
+Training per-market model for 'ra' (308 rows)...
+  Train size: 246, Test size: 62
+MARKET=ra - Test AUC:   0.618
+MARKET=ra - Brier:      0.1005 (lower is better)
+MARKET=ra - Accuracy:   88.7%
+MARKET=ra - Probability bucket calibration (test set):
+  0.00�<0.50: 62 bets, 11.3% hits
+  Saved per-market model to over_model_ra.pkl
+Skipping per-market model for 'threes' (only 0 rows).
+
+Training per-market model for 'fs' (155 rows)...
+  Train size: 124, Test size: 31
+MARKET=fs - Test AUC:   0.564
+MARKET=fs - Brier:      0.2592 (lower is better)
+MARKET=fs - Accuracy:   41.9%
+MARKET=fs - Probability bucket calibration (test set):
+  0.00�<0.50: 10 bets, 40.0% hits
+  0.50�<0.55: 5 bets, 0.0% hits
+  0.55�<0.60: 8 bets, 37.5% hits
+  0.60�<0.65: 6 bets, 33.3% hits
+  0.65�<0.70: 1 bets, 100.0% hits
+  0.80�<0.90: 1 bets, 100.0% hits
+  Saved per-market model to over_model_fs.pkl
+
+Done. Your Streamlit app will now use per-market models when available,
+and fall back to the global model otherwise.
+[Wed 11/26/2025  8:23:18.19] Training finished. 
+[Thu 11/27/2025  8:00:01.81] Starting over-model training... 
+^C[Thu 11/27/2025 17:05:41.02] Starting over-model training... 
+^C[Fri 11/28/2025  8:00:01.93] Starting over-model training... 
+^C[Sat 11/29/2025  8:00:01.79] Starting over-model training... 
+^C[Sat 11/29/2025 10:21:41] Starting over-model training v2...
+[Sat 11/29/2025 10:21:41] Loaded 8973 rows from prop_training_data.csv
+[Sat 11/29/2025 10:24:54.40] Starting over-model training... 
+^C[Sat 11/29/2025 10:25:22] Starting over-model training v2...
+[Sat 11/29/2025 10:25:22] Loaded 8973 rows from prop_training_data.csv
+[Sat 11/29/2025 10:25:22] Labeled rows available for training: 2552
+[Sat 11/29/2025 10:25:22] Training GLOBAL model (all markets together)...
+[Sat 11/29/2025 10:25:22] GLOBAL - Training size: 2041, Test size: 511
+[Sat 11/29/2025 10:25:23] GLOBAL - Test AUC:   0.669
+[Sat 11/29/2025 10:25:23] GLOBAL - Brier:      0.1690 (lower is better)
+[Sat 11/29/2025 10:25:23] GLOBAL - Accuracy:   76.7%
+[Sat 11/29/2025 10:25:23] GLOBAL - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:25:23]   0.00–<0.50: 476 bets, 21.2% hits
+[Sat 11/29/2025 10:25:23]   0.50–<0.55: 13 bets, 46.2% hits
+[Sat 11/29/2025 10:25:23]   0.55–<0.60: 14 bets, 57.1% hits
+[Sat 11/29/2025 10:25:23]   0.60–<0.65: 7 bets, 42.9% hits
+[Sat 11/29/2025 10:25:23]   0.70–<0.80: 1 bets, 0.0% hits
+[Sat 11/29/2025 10:25:23] Saved model to: over_model.pkl
+[Sat 11/29/2025 10:25:23] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sat 11/29/2025 10:25:23] Training per-market model for 'assists' (362 rows)...
+[Sat 11/29/2025 10:25:23] MARKET=assists - Training size: 289, Test size: 73
+[Sat 11/29/2025 10:25:23] MARKET=assists - Test AUC:   0.738
+[Sat 11/29/2025 10:25:23] MARKET=assists - Brier:      0.0854 (lower is better)
+[Sat 11/29/2025 10:25:23] MARKET=assists - Accuracy:   90.4%
+[Sat 11/29/2025 10:25:23] MARKET=assists - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:25:23]   0.00–<0.50: 73 bets, 9.6% hits
+[Sat 11/29/2025 10:25:23] Saved model to: over_model_assists.pkl
+[Sat 11/29/2025 10:25:23] Training per-market model for 'fs' (286 rows)...
+[Sat 11/29/2025 10:25:23] MARKET=fs - Training size: 228, Test size: 58
+[Sat 11/29/2025 10:25:24] MARKET=fs - Test AUC:   0.563
+[Sat 11/29/2025 10:25:24] MARKET=fs - Brier:      0.2560 (lower is better)
+[Sat 11/29/2025 10:25:24] MARKET=fs - Accuracy:   56.9%
+[Sat 11/29/2025 10:25:24] MARKET=fs - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:25:24]   0.00–<0.50: 27 bets, 40.7% hits
+[Sat 11/29/2025 10:25:24]   0.50–<0.55: 9 bets, 66.7% hits
+[Sat 11/29/2025 10:25:24]   0.55–<0.60: 6 bets, 33.3% hits
+[Sat 11/29/2025 10:25:24]   0.60–<0.65: 8 bets, 37.5% hits
+[Sat 11/29/2025 10:25:24]   0.65–<0.70: 4 bets, 75.0% hits
+[Sat 11/29/2025 10:25:24]   0.70–<0.80: 4 bets, 75.0% hits
+[Sat 11/29/2025 10:25:24] Saved model to: over_model_fs.pkl
+[Sat 11/29/2025 10:25:24] Training per-market model for 'points' (431 rows)...
+[Sat 11/29/2025 10:25:24] MARKET=points - Training size: 344, Test size: 87
+[Sat 11/29/2025 10:25:24] MARKET=points - Test AUC:   0.584
+[Sat 11/29/2025 10:25:24] MARKET=points - Brier:      0.1809 (lower is better)
+[Sat 11/29/2025 10:25:24] MARKET=points - Accuracy:   74.7%
+[Sat 11/29/2025 10:25:24] MARKET=points - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:25:24]   0.00–<0.50: 81 bets, 22.2% hits
+[Sat 11/29/2025 10:25:24]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:25:24]   0.55–<0.60: 3 bets, 33.3% hits
+[Sat 11/29/2025 10:25:24]   0.60–<0.65: 2 bets, 0.0% hits
+[Sat 11/29/2025 10:25:25] Saved model to: over_model_points.pkl
+[Sat 11/29/2025 10:25:25] Training per-market model for 'pra' (554 rows)...
+[Sat 11/29/2025 10:25:25] MARKET=pra - Training size: 443, Test size: 111
+[Sat 11/29/2025 10:25:25] MARKET=pra - Test AUC:   0.700
+[Sat 11/29/2025 10:25:25] MARKET=pra - Brier:      0.1801 (lower is better)
+[Sat 11/29/2025 10:25:25] MARKET=pra - Accuracy:   73.0%
+[Sat 11/29/2025 10:25:25] MARKET=pra - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:25:25]   0.00–<0.50: 101 bets, 25.7% hits
+[Sat 11/29/2025 10:25:25]   0.50–<0.55: 4 bets, 50.0% hits
+[Sat 11/29/2025 10:25:25]   0.55–<0.60: 3 bets, 33.3% hits
+[Sat 11/29/2025 10:25:25]   0.60–<0.65: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:25:25]   0.70–<0.80: 2 bets, 100.0% hits
+[Sat 11/29/2025 10:25:25] Saved model to: over_model_pra.pkl
+[Sat 11/29/2025 10:25:25] Training per-market model for 'ra' (472 rows)...
+[Sat 11/29/2025 10:25:25] MARKET=ra - Training size: 377, Test size: 95
+[Sat 11/29/2025 10:25:26] MARKET=ra - Test AUC:   0.767
+[Sat 11/29/2025 10:25:26] MARKET=ra - Brier:      0.1304 (lower is better)
+[Sat 11/29/2025 10:25:26] MARKET=ra - Accuracy:   84.2%
+[Sat 11/29/2025 10:25:26] MARKET=ra - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:25:26]   0.00–<0.50: 90 bets, 15.6% hits
+[Sat 11/29/2025 10:25:26]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:25:26]   0.55–<0.60: 3 bets, 66.7% hits
+[Sat 11/29/2025 10:25:26]   0.70–<0.80: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:25:26] Saved model to: over_model_ra.pkl
+[Sat 11/29/2025 10:25:26] Training per-market model for 'rebounds' (447 rows)...
+[Sat 11/29/2025 10:25:26] MARKET=rebounds - Training size: 357, Test size: 90
+[Sat 11/29/2025 10:25:26] MARKET=rebounds - Test AUC:   0.635
+[Sat 11/29/2025 10:25:26] MARKET=rebounds - Brier:      0.1317 (lower is better)
+[Sat 11/29/2025 10:25:26] MARKET=rebounds - Accuracy:   85.6%
+[Sat 11/29/2025 10:25:26] MARKET=rebounds - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:25:26]   0.00–<0.50: 89 bets, 14.6% hits
+[Sat 11/29/2025 10:25:26]   0.55–<0.60: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:25:26] Saved model to: over_model_rebounds.pkl
+[Sat 11/29/2025 10:25:26] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sat 11/29/2025 10:53:13] Starting over-model training v2...
+[Sat 11/29/2025 10:53:14] Loaded 8973 rows from prop_training_data.csv
+[Sat 11/29/2025 10:53:14] Labeled rows available for training: 2552
+[Sat 11/29/2025 10:53:14] Training GLOBAL model (all markets together)...
+[Sat 11/29/2025 10:53:14] GLOBAL - Training size: 2041, Test size: 511
+[Sat 11/29/2025 10:53:14] GLOBAL - Test AUC:   0.669
+[Sat 11/29/2025 10:53:14] GLOBAL - Brier:      0.1690 (lower is better)
+[Sat 11/29/2025 10:53:14] GLOBAL - Accuracy:   76.7%
+[Sat 11/29/2025 10:53:14] GLOBAL - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:53:14]   0.00–<0.50: 476 bets, 21.2% hits
+[Sat 11/29/2025 10:53:14]   0.50–<0.55: 13 bets, 46.2% hits
+[Sat 11/29/2025 10:53:14]   0.55–<0.60: 14 bets, 57.1% hits
+[Sat 11/29/2025 10:53:14]   0.60–<0.65: 7 bets, 42.9% hits
+[Sat 11/29/2025 10:53:14]   0.70–<0.80: 1 bets, 0.0% hits
+[Sat 11/29/2025 10:53:14] Saved model to: over_model.pkl
+[Sat 11/29/2025 10:53:14] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sat 11/29/2025 10:53:14] Training per-market model for 'assists' (362 rows)...
+[Sat 11/29/2025 10:53:14] MARKET=assists - Training size: 289, Test size: 73
+[Sat 11/29/2025 10:53:15] MARKET=assists - Test AUC:   0.738
+[Sat 11/29/2025 10:53:15] MARKET=assists - Brier:      0.0854 (lower is better)
+[Sat 11/29/2025 10:53:15] MARKET=assists - Accuracy:   90.4%
+[Sat 11/29/2025 10:53:15] MARKET=assists - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:53:15]   0.00–<0.50: 73 bets, 9.6% hits
+[Sat 11/29/2025 10:53:15] Saved model to: over_model_assists.pkl
+[Sat 11/29/2025 10:53:15] Training per-market model for 'fs' (286 rows)...
+[Sat 11/29/2025 10:53:15] MARKET=fs - Training size: 228, Test size: 58
+[Sat 11/29/2025 10:53:15] MARKET=fs - Test AUC:   0.563
+[Sat 11/29/2025 10:53:15] MARKET=fs - Brier:      0.2560 (lower is better)
+[Sat 11/29/2025 10:53:15] MARKET=fs - Accuracy:   56.9%
+[Sat 11/29/2025 10:53:15] MARKET=fs - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:53:15]   0.00–<0.50: 27 bets, 40.7% hits
+[Sat 11/29/2025 10:53:15]   0.50–<0.55: 9 bets, 66.7% hits
+[Sat 11/29/2025 10:53:15]   0.55–<0.60: 6 bets, 33.3% hits
+[Sat 11/29/2025 10:53:15]   0.60–<0.65: 8 bets, 37.5% hits
+[Sat 11/29/2025 10:53:15]   0.65–<0.70: 4 bets, 75.0% hits
+[Sat 11/29/2025 10:53:15]   0.70–<0.80: 4 bets, 75.0% hits
+[Sat 11/29/2025 10:53:15] Saved model to: over_model_fs.pkl
+[Sat 11/29/2025 10:53:15] Training per-market model for 'points' (431 rows)...
+[Sat 11/29/2025 10:53:15] MARKET=points - Training size: 344, Test size: 87
+[Sat 11/29/2025 10:53:16] MARKET=points - Test AUC:   0.584
+[Sat 11/29/2025 10:53:16] MARKET=points - Brier:      0.1809 (lower is better)
+[Sat 11/29/2025 10:53:16] MARKET=points - Accuracy:   74.7%
+[Sat 11/29/2025 10:53:16] MARKET=points - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:53:16]   0.00–<0.50: 81 bets, 22.2% hits
+[Sat 11/29/2025 10:53:16]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:53:16]   0.55–<0.60: 3 bets, 33.3% hits
+[Sat 11/29/2025 10:53:16]   0.60–<0.65: 2 bets, 0.0% hits
+[Sat 11/29/2025 10:53:16] Saved model to: over_model_points.pkl
+[Sat 11/29/2025 10:53:16] Training per-market model for 'pra' (554 rows)...
+[Sat 11/29/2025 10:53:16] MARKET=pra - Training size: 443, Test size: 111
+[Sat 11/29/2025 10:53:16] MARKET=pra - Test AUC:   0.700
+[Sat 11/29/2025 10:53:16] MARKET=pra - Brier:      0.1801 (lower is better)
+[Sat 11/29/2025 10:53:16] MARKET=pra - Accuracy:   73.0%
+[Sat 11/29/2025 10:53:16] MARKET=pra - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:53:16]   0.00–<0.50: 101 bets, 25.7% hits
+[Sat 11/29/2025 10:53:16]   0.50–<0.55: 4 bets, 50.0% hits
+[Sat 11/29/2025 10:53:17]   0.55–<0.60: 3 bets, 33.3% hits
+[Sat 11/29/2025 10:53:17]   0.60–<0.65: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:53:17]   0.70–<0.80: 2 bets, 100.0% hits
+[Sat 11/29/2025 10:53:17] Saved model to: over_model_pra.pkl
+[Sat 11/29/2025 10:53:17] Training per-market model for 'ra' (472 rows)...
+[Sat 11/29/2025 10:53:17] MARKET=ra - Training size: 377, Test size: 95
+[Sat 11/29/2025 10:53:17] MARKET=ra - Test AUC:   0.767
+[Sat 11/29/2025 10:53:17] MARKET=ra - Brier:      0.1304 (lower is better)
+[Sat 11/29/2025 10:53:17] MARKET=ra - Accuracy:   84.2%
+[Sat 11/29/2025 10:53:17] MARKET=ra - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:53:17]   0.00–<0.50: 90 bets, 15.6% hits
+[Sat 11/29/2025 10:53:17]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:53:17]   0.55–<0.60: 3 bets, 66.7% hits
+[Sat 11/29/2025 10:53:17]   0.70–<0.80: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:53:17] Saved model to: over_model_ra.pkl
+[Sat 11/29/2025 10:53:17] Training per-market model for 'rebounds' (447 rows)...
+[Sat 11/29/2025 10:53:17] MARKET=rebounds - Training size: 357, Test size: 90
+[Sat 11/29/2025 10:53:18] MARKET=rebounds - Test AUC:   0.635
+[Sat 11/29/2025 10:53:18] MARKET=rebounds - Brier:      0.1317 (lower is better)
+[Sat 11/29/2025 10:53:18] MARKET=rebounds - Accuracy:   85.6%
+[Sat 11/29/2025 10:53:18] MARKET=rebounds - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:53:18]   0.00–<0.50: 89 bets, 14.6% hits
+[Sat 11/29/2025 10:53:18]   0.55–<0.60: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:53:18] Saved model to: over_model_rebounds.pkl
+[Sat 11/29/2025 10:53:18] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sat 11/29/2025 10:55:51] Starting over-model training v2...
+[Sat 11/29/2025 10:55:51] Loaded 8864 rows from prop_training_data.csv
+[Sat 11/29/2025 10:55:51] Labeled rows available for training: 2552
+[Sat 11/29/2025 10:55:51] Training GLOBAL model (all markets together)...
+[Sat 11/29/2025 10:55:51] GLOBAL - Training size: 2041, Test size: 511
+[Sat 11/29/2025 10:55:51] GLOBAL - Test AUC:   0.669
+[Sat 11/29/2025 10:55:51] GLOBAL - Brier:      0.1690 (lower is better)
+[Sat 11/29/2025 10:55:51] GLOBAL - Accuracy:   76.7%
+[Sat 11/29/2025 10:55:51] GLOBAL - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:55:51]   0.00–<0.50: 476 bets, 21.2% hits
+[Sat 11/29/2025 10:55:51]   0.50–<0.55: 13 bets, 46.2% hits
+[Sat 11/29/2025 10:55:51]   0.55–<0.60: 14 bets, 57.1% hits
+[Sat 11/29/2025 10:55:51]   0.60–<0.65: 7 bets, 42.9% hits
+[Sat 11/29/2025 10:55:51]   0.70–<0.80: 1 bets, 0.0% hits
+[Sat 11/29/2025 10:55:51] Saved model to: over_model.pkl
+[Sat 11/29/2025 10:55:51] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sat 11/29/2025 10:55:51] Training per-market model for 'assists' (362 rows)...
+[Sat 11/29/2025 10:55:51] MARKET=assists - Training size: 289, Test size: 73
+[Sat 11/29/2025 10:55:52] MARKET=assists - Test AUC:   0.738
+[Sat 11/29/2025 10:55:52] MARKET=assists - Brier:      0.0854 (lower is better)
+[Sat 11/29/2025 10:55:52] MARKET=assists - Accuracy:   90.4%
+[Sat 11/29/2025 10:55:52] MARKET=assists - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:55:52]   0.00–<0.50: 73 bets, 9.6% hits
+[Sat 11/29/2025 10:55:52] Saved model to: over_model_assists.pkl
+[Sat 11/29/2025 10:55:52] Training per-market model for 'fs' (286 rows)...
+[Sat 11/29/2025 10:55:52] MARKET=fs - Training size: 228, Test size: 58
+[Sat 11/29/2025 10:55:52] MARKET=fs - Test AUC:   0.563
+[Sat 11/29/2025 10:55:52] MARKET=fs - Brier:      0.2560 (lower is better)
+[Sat 11/29/2025 10:55:52] MARKET=fs - Accuracy:   56.9%
+[Sat 11/29/2025 10:55:52] MARKET=fs - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:55:52]   0.00–<0.50: 27 bets, 40.7% hits
+[Sat 11/29/2025 10:55:52]   0.50–<0.55: 9 bets, 66.7% hits
+[Sat 11/29/2025 10:55:52]   0.55–<0.60: 6 bets, 33.3% hits
+[Sat 11/29/2025 10:55:52]   0.60–<0.65: 8 bets, 37.5% hits
+[Sat 11/29/2025 10:55:52]   0.65–<0.70: 4 bets, 75.0% hits
+[Sat 11/29/2025 10:55:52]   0.70–<0.80: 4 bets, 75.0% hits
+[Sat 11/29/2025 10:55:53] Saved model to: over_model_fs.pkl
+[Sat 11/29/2025 10:55:53] Training per-market model for 'points' (431 rows)...
+[Sat 11/29/2025 10:55:53] MARKET=points - Training size: 344, Test size: 87
+[Sat 11/29/2025 10:55:53] MARKET=points - Test AUC:   0.584
+[Sat 11/29/2025 10:55:53] MARKET=points - Brier:      0.1809 (lower is better)
+[Sat 11/29/2025 10:55:53] MARKET=points - Accuracy:   74.7%
+[Sat 11/29/2025 10:55:53] MARKET=points - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:55:53]   0.00–<0.50: 81 bets, 22.2% hits
+[Sat 11/29/2025 10:55:53]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:55:53]   0.55–<0.60: 3 bets, 33.3% hits
+[Sat 11/29/2025 10:55:53]   0.60–<0.65: 2 bets, 0.0% hits
+[Sat 11/29/2025 10:55:53] Saved model to: over_model_points.pkl
+[Sat 11/29/2025 10:55:53] Training per-market model for 'pra' (554 rows)...
+[Sat 11/29/2025 10:55:53] MARKET=pra - Training size: 443, Test size: 111
+[Sat 11/29/2025 10:55:54] MARKET=pra - Test AUC:   0.700
+[Sat 11/29/2025 10:55:54] MARKET=pra - Brier:      0.1801 (lower is better)
+[Sat 11/29/2025 10:55:54] MARKET=pra - Accuracy:   73.0%
+[Sat 11/29/2025 10:55:54] MARKET=pra - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:55:54]   0.00–<0.50: 101 bets, 25.7% hits
+[Sat 11/29/2025 10:55:54]   0.50–<0.55: 4 bets, 50.0% hits
+[Sat 11/29/2025 10:55:54]   0.55–<0.60: 3 bets, 33.3% hits
+[Sat 11/29/2025 10:55:54]   0.60–<0.65: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:55:54]   0.70–<0.80: 2 bets, 100.0% hits
+[Sat 11/29/2025 10:55:54] Saved model to: over_model_pra.pkl
+[Sat 11/29/2025 10:55:54] Training per-market model for 'ra' (472 rows)...
+[Sat 11/29/2025 10:55:54] MARKET=ra - Training size: 377, Test size: 95
+[Sat 11/29/2025 10:55:54] MARKET=ra - Test AUC:   0.767
+[Sat 11/29/2025 10:55:54] MARKET=ra - Brier:      0.1304 (lower is better)
+[Sat 11/29/2025 10:55:54] MARKET=ra - Accuracy:   84.2%
+[Sat 11/29/2025 10:55:54] MARKET=ra - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:55:54]   0.00–<0.50: 90 bets, 15.6% hits
+[Sat 11/29/2025 10:55:54]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:55:54]   0.55–<0.60: 3 bets, 66.7% hits
+[Sat 11/29/2025 10:55:54]   0.70–<0.80: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:55:54] Saved model to: over_model_ra.pkl
+[Sat 11/29/2025 10:55:54] Training per-market model for 'rebounds' (447 rows)...
+[Sat 11/29/2025 10:55:54] MARKET=rebounds - Training size: 357, Test size: 90
+[Sat 11/29/2025 10:55:55] MARKET=rebounds - Test AUC:   0.635
+[Sat 11/29/2025 10:55:55] MARKET=rebounds - Brier:      0.1317 (lower is better)
+[Sat 11/29/2025 10:55:55] MARKET=rebounds - Accuracy:   85.6%
+[Sat 11/29/2025 10:55:55] MARKET=rebounds - Probability bucket calibration (test set):
+[Sat 11/29/2025 10:55:55]   0.00–<0.50: 89 bets, 14.6% hits
+[Sat 11/29/2025 10:55:55]   0.55–<0.60: 1 bets, 100.0% hits
+[Sat 11/29/2025 10:55:55] Saved model to: over_model_rebounds.pkl
+[Sat 11/29/2025 10:55:55] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sat 11/29/2025 11:09:52] Starting over-model training v2...
+[Sat 11/29/2025 11:09:52] Loaded 8864 rows from prop_training_data.csv
+[Sat 11/29/2025 11:09:52] Labeled rows available for training: 2552
+[Sat 11/29/2025 11:09:52] Training GLOBAL model (all markets together)...
+[Sat 11/29/2025 11:09:52] GLOBAL - Training size: 2041, Test size: 511
+[Sat 11/29/2025 11:09:53] GLOBAL - Test AUC:   0.669
+[Sat 11/29/2025 11:09:53] GLOBAL - Brier:      0.1690 (lower is better)
+[Sat 11/29/2025 11:09:53] GLOBAL - Accuracy:   76.7%
+[Sat 11/29/2025 11:09:53] GLOBAL - Probability bucket calibration (test set):
+[Sat 11/29/2025 11:09:53]   0.00–<0.50: 476 bets, 21.2% hits
+[Sat 11/29/2025 11:09:53]   0.50–<0.55: 13 bets, 46.2% hits
+[Sat 11/29/2025 11:09:53]   0.55–<0.60: 14 bets, 57.1% hits
+[Sat 11/29/2025 11:09:53]   0.60–<0.65: 7 bets, 42.9% hits
+[Sat 11/29/2025 11:09:53]   0.70–<0.80: 1 bets, 0.0% hits
+[Sat 11/29/2025 11:09:53] Saved model to: over_model.pkl
+[Sat 11/29/2025 11:09:53] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sat 11/29/2025 11:09:53] Training per-market model for 'assists' (362 rows)...
+[Sat 11/29/2025 11:09:53] MARKET=assists - Training size: 289, Test size: 73
+[Sat 11/29/2025 11:09:53] MARKET=assists - Test AUC:   0.738
+[Sat 11/29/2025 11:09:53] MARKET=assists - Brier:      0.0854 (lower is better)
+[Sat 11/29/2025 11:09:53] MARKET=assists - Accuracy:   90.4%
+[Sat 11/29/2025 11:09:53] MARKET=assists - Probability bucket calibration (test set):
+[Sat 11/29/2025 11:09:53]   0.00–<0.50: 73 bets, 9.6% hits
+[Sat 11/29/2025 11:09:54] Saved model to: over_model_assists.pkl
+[Sat 11/29/2025 11:09:54] Training per-market model for 'fs' (286 rows)...
+[Sat 11/29/2025 11:09:54] MARKET=fs - Training size: 228, Test size: 58
+[Sat 11/29/2025 11:09:54] MARKET=fs - Test AUC:   0.563
+[Sat 11/29/2025 11:09:54] MARKET=fs - Brier:      0.2560 (lower is better)
+[Sat 11/29/2025 11:09:54] MARKET=fs - Accuracy:   56.9%
+[Sat 11/29/2025 11:09:54] MARKET=fs - Probability bucket calibration (test set):
+[Sat 11/29/2025 11:09:54]   0.00–<0.50: 27 bets, 40.7% hits
+[Sat 11/29/2025 11:09:54]   0.50–<0.55: 9 bets, 66.7% hits
+[Sat 11/29/2025 11:09:54]   0.55–<0.60: 6 bets, 33.3% hits
+[Sat 11/29/2025 11:09:54]   0.60–<0.65: 8 bets, 37.5% hits
+[Sat 11/29/2025 11:09:54]   0.65–<0.70: 4 bets, 75.0% hits
+[Sat 11/29/2025 11:09:54]   0.70–<0.80: 4 bets, 75.0% hits
+[Sat 11/29/2025 11:09:54] Saved model to: over_model_fs.pkl
+[Sat 11/29/2025 11:09:54] Training per-market model for 'points' (431 rows)...
+[Sat 11/29/2025 11:09:54] MARKET=points - Training size: 344, Test size: 87
+[Sat 11/29/2025 11:09:55] MARKET=points - Test AUC:   0.584
+[Sat 11/29/2025 11:09:55] MARKET=points - Brier:      0.1809 (lower is better)
+[Sat 11/29/2025 11:09:55] MARKET=points - Accuracy:   74.7%
+[Sat 11/29/2025 11:09:55] MARKET=points - Probability bucket calibration (test set):
+[Sat 11/29/2025 11:09:55]   0.00–<0.50: 81 bets, 22.2% hits
+[Sat 11/29/2025 11:09:55]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 11:09:55]   0.55–<0.60: 3 bets, 33.3% hits
+[Sat 11/29/2025 11:09:55]   0.60–<0.65: 2 bets, 0.0% hits
+[Sat 11/29/2025 11:09:55] Saved model to: over_model_points.pkl
+[Sat 11/29/2025 11:09:55] Training per-market model for 'pra' (554 rows)...
+[Sat 11/29/2025 11:09:55] MARKET=pra - Training size: 443, Test size: 111
+[Sat 11/29/2025 11:09:56] MARKET=pra - Test AUC:   0.700
+[Sat 11/29/2025 11:09:56] MARKET=pra - Brier:      0.1801 (lower is better)
+[Sat 11/29/2025 11:09:56] MARKET=pra - Accuracy:   73.0%
+[Sat 11/29/2025 11:09:56] MARKET=pra - Probability bucket calibration (test set):
+[Sat 11/29/2025 11:09:56]   0.00–<0.50: 101 bets, 25.7% hits
+[Sat 11/29/2025 11:09:56]   0.50–<0.55: 4 bets, 50.0% hits
+[Sat 11/29/2025 11:09:56]   0.55–<0.60: 3 bets, 33.3% hits
+[Sat 11/29/2025 11:09:56]   0.60–<0.65: 1 bets, 100.0% hits
+[Sat 11/29/2025 11:09:56]   0.70–<0.80: 2 bets, 100.0% hits
+[Sat 11/29/2025 11:09:56] Saved model to: over_model_pra.pkl
+[Sat 11/29/2025 11:09:56] Training per-market model for 'ra' (472 rows)...
+[Sat 11/29/2025 11:09:56] MARKET=ra - Training size: 377, Test size: 95
+[Sat 11/29/2025 11:09:57] MARKET=ra - Test AUC:   0.767
+[Sat 11/29/2025 11:09:57] MARKET=ra - Brier:      0.1304 (lower is better)
+[Sat 11/29/2025 11:09:57] MARKET=ra - Accuracy:   84.2%
+[Sat 11/29/2025 11:09:57] MARKET=ra - Probability bucket calibration (test set):
+[Sat 11/29/2025 11:09:57]   0.00–<0.50: 90 bets, 15.6% hits
+[Sat 11/29/2025 11:09:57]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 11:09:57]   0.55–<0.60: 3 bets, 66.7% hits
+[Sat 11/29/2025 11:09:57]   0.70–<0.80: 1 bets, 100.0% hits
+[Sat 11/29/2025 11:09:57] Saved model to: over_model_ra.pkl
+[Sat 11/29/2025 11:09:57] Training per-market model for 'rebounds' (447 rows)...
+[Sat 11/29/2025 11:09:57] MARKET=rebounds - Training size: 357, Test size: 90
+[Sat 11/29/2025 11:09:58] MARKET=rebounds - Test AUC:   0.635
+[Sat 11/29/2025 11:09:58] MARKET=rebounds - Brier:      0.1317 (lower is better)
+[Sat 11/29/2025 11:09:58] MARKET=rebounds - Accuracy:   85.6%
+[Sat 11/29/2025 11:09:58] MARKET=rebounds - Probability bucket calibration (test set):
+[Sat 11/29/2025 11:09:58]   0.00–<0.50: 89 bets, 14.6% hits
+[Sat 11/29/2025 11:09:58]   0.55–<0.60: 1 bets, 100.0% hits
+[Sat 11/29/2025 11:09:58] Saved model to: over_model_rebounds.pkl
+[Sat 11/29/2025 11:09:58] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sat 11/29/2025 13:52:21] Starting over-model training v2...
+[Sat 11/29/2025 13:52:21] Loaded 9028 rows from prop_training_data.csv
+[Sat 11/29/2025 13:52:21] Labeled rows available for training: 2552
+[Sat 11/29/2025 13:52:21] Training GLOBAL model (all markets together)...
+[Sat 11/29/2025 13:52:21] GLOBAL - Training size: 2041, Test size: 511
+[Sat 11/29/2025 13:52:22] GLOBAL - Test AUC:   0.669
+[Sat 11/29/2025 13:52:22] GLOBAL - Brier:      0.1690 (lower is better)
+[Sat 11/29/2025 13:52:22] GLOBAL - Accuracy:   76.7%
+[Sat 11/29/2025 13:52:22] GLOBAL - Probability bucket calibration (test set):
+[Sat 11/29/2025 13:52:22]   0.00–<0.50: 476 bets, 21.2% hits
+[Sat 11/29/2025 13:52:22]   0.50–<0.55: 13 bets, 46.2% hits
+[Sat 11/29/2025 13:52:22]   0.55–<0.60: 14 bets, 57.1% hits
+[Sat 11/29/2025 13:52:22]   0.60–<0.65: 7 bets, 42.9% hits
+[Sat 11/29/2025 13:52:22]   0.70–<0.80: 1 bets, 0.0% hits
+[Sat 11/29/2025 13:52:22] Saved model to: over_model.pkl
+[Sat 11/29/2025 13:52:22] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sat 11/29/2025 13:52:22] Training per-market model for 'assists' (362 rows)...
+[Sat 11/29/2025 13:52:22] MARKET=assists - Training size: 289, Test size: 73
+[Sat 11/29/2025 13:52:23] MARKET=assists - Test AUC:   0.738
+[Sat 11/29/2025 13:52:23] MARKET=assists - Brier:      0.0854 (lower is better)
+[Sat 11/29/2025 13:52:23] MARKET=assists - Accuracy:   90.4%
+[Sat 11/29/2025 13:52:23] MARKET=assists - Probability bucket calibration (test set):
+[Sat 11/29/2025 13:52:23]   0.00–<0.50: 73 bets, 9.6% hits
+[Sat 11/29/2025 13:52:23] Saved model to: over_model_assists.pkl
+[Sat 11/29/2025 13:52:23] Training per-market model for 'fs' (286 rows)...
+[Sat 11/29/2025 13:52:23] MARKET=fs - Training size: 228, Test size: 58
+[Sat 11/29/2025 13:52:23] MARKET=fs - Test AUC:   0.563
+[Sat 11/29/2025 13:52:23] MARKET=fs - Brier:      0.2560 (lower is better)
+[Sat 11/29/2025 13:52:23] MARKET=fs - Accuracy:   56.9%
+[Sat 11/29/2025 13:52:23] MARKET=fs - Probability bucket calibration (test set):
+[Sat 11/29/2025 13:52:23]   0.00–<0.50: 27 bets, 40.7% hits
+[Sat 11/29/2025 13:52:23]   0.50–<0.55: 9 bets, 66.7% hits
+[Sat 11/29/2025 13:52:23]   0.55–<0.60: 6 bets, 33.3% hits
+[Sat 11/29/2025 13:52:23]   0.60–<0.65: 8 bets, 37.5% hits
+[Sat 11/29/2025 13:52:23]   0.65–<0.70: 4 bets, 75.0% hits
+[Sat 11/29/2025 13:52:23]   0.70–<0.80: 4 bets, 75.0% hits
+[Sat 11/29/2025 13:52:23] Saved model to: over_model_fs.pkl
+[Sat 11/29/2025 13:52:23] Training per-market model for 'points' (431 rows)...
+[Sat 11/29/2025 13:52:23] MARKET=points - Training size: 344, Test size: 87
+[Sat 11/29/2025 13:52:24] MARKET=points - Test AUC:   0.584
+[Sat 11/29/2025 13:52:24] MARKET=points - Brier:      0.1809 (lower is better)
+[Sat 11/29/2025 13:52:24] MARKET=points - Accuracy:   74.7%
+[Sat 11/29/2025 13:52:24] MARKET=points - Probability bucket calibration (test set):
+[Sat 11/29/2025 13:52:24]   0.00–<0.50: 81 bets, 22.2% hits
+[Sat 11/29/2025 13:52:24]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 13:52:24]   0.55–<0.60: 3 bets, 33.3% hits
+[Sat 11/29/2025 13:52:24]   0.60–<0.65: 2 bets, 0.0% hits
+[Sat 11/29/2025 13:52:24] Saved model to: over_model_points.pkl
+[Sat 11/29/2025 13:52:24] Training per-market model for 'pra' (554 rows)...
+[Sat 11/29/2025 13:52:24] MARKET=pra - Training size: 443, Test size: 111
+[Sat 11/29/2025 13:52:24] MARKET=pra - Test AUC:   0.700
+[Sat 11/29/2025 13:52:24] MARKET=pra - Brier:      0.1801 (lower is better)
+[Sat 11/29/2025 13:52:24] MARKET=pra - Accuracy:   73.0%
+[Sat 11/29/2025 13:52:24] MARKET=pra - Probability bucket calibration (test set):
+[Sat 11/29/2025 13:52:24]   0.00–<0.50: 101 bets, 25.7% hits
+[Sat 11/29/2025 13:52:24]   0.50–<0.55: 4 bets, 50.0% hits
+[Sat 11/29/2025 13:52:24]   0.55–<0.60: 3 bets, 33.3% hits
+[Sat 11/29/2025 13:52:24]   0.60–<0.65: 1 bets, 100.0% hits
+[Sat 11/29/2025 13:52:24]   0.70–<0.80: 2 bets, 100.0% hits
+[Sat 11/29/2025 13:52:24] Saved model to: over_model_pra.pkl
+[Sat 11/29/2025 13:52:24] Training per-market model for 'ra' (472 rows)...
+[Sat 11/29/2025 13:52:24] MARKET=ra - Training size: 377, Test size: 95
+[Sat 11/29/2025 13:52:25] MARKET=ra - Test AUC:   0.767
+[Sat 11/29/2025 13:52:25] MARKET=ra - Brier:      0.1304 (lower is better)
+[Sat 11/29/2025 13:52:25] MARKET=ra - Accuracy:   84.2%
+[Sat 11/29/2025 13:52:25] MARKET=ra - Probability bucket calibration (test set):
+[Sat 11/29/2025 13:52:25]   0.00–<0.50: 90 bets, 15.6% hits
+[Sat 11/29/2025 13:52:25]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 13:52:25]   0.55–<0.60: 3 bets, 66.7% hits
+[Sat 11/29/2025 13:52:25]   0.70–<0.80: 1 bets, 100.0% hits
+[Sat 11/29/2025 13:52:25] Saved model to: over_model_ra.pkl
+[Sat 11/29/2025 13:52:25] Training per-market model for 'rebounds' (447 rows)...
+[Sat 11/29/2025 13:52:25] MARKET=rebounds - Training size: 357, Test size: 90
+[Sat 11/29/2025 13:52:25] MARKET=rebounds - Test AUC:   0.635
+[Sat 11/29/2025 13:52:25] MARKET=rebounds - Brier:      0.1317 (lower is better)
+[Sat 11/29/2025 13:52:25] MARKET=rebounds - Accuracy:   85.6%
+[Sat 11/29/2025 13:52:25] MARKET=rebounds - Probability bucket calibration (test set):
+[Sat 11/29/2025 13:52:25]   0.00–<0.50: 89 bets, 14.6% hits
+[Sat 11/29/2025 13:52:25]   0.55–<0.60: 1 bets, 100.0% hits
+[Sat 11/29/2025 13:52:25] Saved model to: over_model_rebounds.pkl
+[Sat 11/29/2025 13:52:25] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sat 11/29/2025 14:47:38] Starting over-model training v2...
+[Sat 11/29/2025 14:47:38] Loaded 9028 rows from prop_training_data.csv
+[Sat 11/29/2025 14:47:38] Labeled rows available for training: 2552
+[Sat 11/29/2025 14:47:38] Training GLOBAL model (all markets together)...
+[Sat 11/29/2025 14:47:38] GLOBAL - Training size: 2041, Test size: 511
+[Sat 11/29/2025 14:47:39] GLOBAL - Test AUC:   0.725
+[Sat 11/29/2025 14:47:39] GLOBAL - Brier:      0.1550 (lower is better)
+[Sat 11/29/2025 14:47:39] GLOBAL - Accuracy:   78.9%
+[Sat 11/29/2025 14:47:39] GLOBAL - Probability bucket calibration (test set):
+[Sat 11/29/2025 14:47:39]   0.00–<0.50: 475 bets, 20.0% hits
+[Sat 11/29/2025 14:47:39]   0.50–<0.55: 5 bets, 80.0% hits
+[Sat 11/29/2025 14:47:39]   0.55–<0.60: 12 bets, 50.0% hits
+[Sat 11/29/2025 14:47:39]   0.60–<0.65: 7 bets, 42.9% hits
+[Sat 11/29/2025 14:47:39]   0.65–<0.70: 6 bets, 83.3% hits
+[Sat 11/29/2025 14:47:39]   0.70–<0.80: 5 bets, 80.0% hits
+[Sat 11/29/2025 14:47:39]   0.80–<0.90: 1 bets, 100.0% hits
+[Sat 11/29/2025 14:47:39] Saved model to: over_model.pkl
+[Sat 11/29/2025 14:47:39] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sat 11/29/2025 14:47:39] Training per-market model for 'assists' (362 rows)...
+[Sat 11/29/2025 14:47:39] MARKET=assists - Training size: 289, Test size: 73
+[Sat 11/29/2025 14:47:40] MARKET=assists - Test AUC:   0.738
+[Sat 11/29/2025 14:47:40] MARKET=assists - Brier:      0.0818 (lower is better)
+[Sat 11/29/2025 14:47:40] MARKET=assists - Accuracy:   90.4%
+[Sat 11/29/2025 14:47:40] MARKET=assists - Probability bucket calibration (test set):
+[Sat 11/29/2025 14:47:40]   0.00–<0.50: 73 bets, 9.6% hits
+[Sat 11/29/2025 14:47:40] Saved model to: over_model_assists.pkl
+[Sat 11/29/2025 14:47:40] Training per-market model for 'fs' (286 rows)...
+[Sat 11/29/2025 14:47:40] MARKET=fs - Training size: 228, Test size: 58
+[Sat 11/29/2025 14:47:40] MARKET=fs - Test AUC:   0.542
+[Sat 11/29/2025 14:47:40] MARKET=fs - Brier:      0.2652 (lower is better)
+[Sat 11/29/2025 14:47:40] MARKET=fs - Accuracy:   48.3%
+[Sat 11/29/2025 14:47:40] MARKET=fs - Probability bucket calibration (test set):
+[Sat 11/29/2025 14:47:40]   0.00–<0.50: 32 bets, 50.0% hits
+[Sat 11/29/2025 14:47:40]   0.50–<0.55: 5 bets, 20.0% hits
+[Sat 11/29/2025 14:47:40]   0.55–<0.60: 4 bets, 50.0% hits
+[Sat 11/29/2025 14:47:40]   0.60–<0.65: 5 bets, 40.0% hits
+[Sat 11/29/2025 14:47:40]   0.65–<0.70: 8 bets, 50.0% hits
+[Sat 11/29/2025 14:47:40]   0.70–<0.80: 3 bets, 100.0% hits
+[Sat 11/29/2025 14:47:40]   0.80–<0.90: 1 bets, 0.0% hits
+[Sat 11/29/2025 14:47:41] Saved model to: over_model_fs.pkl
+[Sat 11/29/2025 14:47:41] Training per-market model for 'points' (431 rows)...
+[Sat 11/29/2025 14:47:41] MARKET=points - Training size: 344, Test size: 87
+[Sat 11/29/2025 14:47:41] MARKET=points - Test AUC:   0.557
+[Sat 11/29/2025 14:47:41] MARKET=points - Brier:      0.1872 (lower is better)
+[Sat 11/29/2025 14:47:41] MARKET=points - Accuracy:   73.6%
+[Sat 11/29/2025 14:47:41] MARKET=points - Probability bucket calibration (test set):
+[Sat 11/29/2025 14:47:41]   0.00–<0.50: 82 bets, 23.2% hits
+[Sat 11/29/2025 14:47:41]   0.50–<0.55: 2 bets, 0.0% hits
+[Sat 11/29/2025 14:47:41]   0.55–<0.60: 3 bets, 33.3% hits
+[Sat 11/29/2025 14:47:41] Saved model to: over_model_points.pkl
+[Sat 11/29/2025 14:47:41] Training per-market model for 'pra' (554 rows)...
+[Sat 11/29/2025 14:47:41] MARKET=pra - Training size: 443, Test size: 111
+[Sat 11/29/2025 14:47:42] MARKET=pra - Test AUC:   0.743
+[Sat 11/29/2025 14:47:42] MARKET=pra - Brier:      0.1732 (lower is better)
+[Sat 11/29/2025 14:47:42] MARKET=pra - Accuracy:   73.9%
+[Sat 11/29/2025 14:47:42] MARKET=pra - Probability bucket calibration (test set):
+[Sat 11/29/2025 14:47:42]   0.00–<0.50: 102 bets, 25.5% hits
+[Sat 11/29/2025 14:47:42]   0.50–<0.55: 2 bets, 0.0% hits
+[Sat 11/29/2025 14:47:42]   0.55–<0.60: 4 bets, 75.0% hits
+[Sat 11/29/2025 14:47:42]   0.60–<0.65: 2 bets, 100.0% hits
+[Sat 11/29/2025 14:47:42]   0.70–<0.80: 1 bets, 100.0% hits
+[Sat 11/29/2025 14:47:42] Saved model to: over_model_pra.pkl
+[Sat 11/29/2025 14:47:42] Training per-market model for 'ra' (472 rows)...
+[Sat 11/29/2025 14:47:42] MARKET=ra - Training size: 377, Test size: 95
+[Sat 11/29/2025 14:47:42] MARKET=ra - Test AUC:   0.706
+[Sat 11/29/2025 14:47:42] MARKET=ra - Brier:      0.1300 (lower is better)
+[Sat 11/29/2025 14:47:42] MARKET=ra - Accuracy:   85.3%
+[Sat 11/29/2025 14:47:42] MARKET=ra - Probability bucket calibration (test set):
+[Sat 11/29/2025 14:47:42]   0.00–<0.50: 91 bets, 15.4% hits
+[Sat 11/29/2025 14:47:42]   0.55–<0.60: 2 bets, 100.0% hits
+[Sat 11/29/2025 14:47:42]   0.60–<0.65: 1 bets, 100.0% hits
+[Sat 11/29/2025 14:47:42]   0.65–<0.70: 1 bets, 100.0% hits
+[Sat 11/29/2025 14:47:43] Saved model to: over_model_ra.pkl
+[Sat 11/29/2025 14:47:43] Training per-market model for 'rebounds' (447 rows)...
+[Sat 11/29/2025 14:47:43] MARKET=rebounds - Training size: 357, Test size: 90
+[Sat 11/29/2025 14:47:43] MARKET=rebounds - Test AUC:   0.662
+[Sat 11/29/2025 14:47:43] MARKET=rebounds - Brier:      0.1245 (lower is better)
+[Sat 11/29/2025 14:47:43] MARKET=rebounds - Accuracy:   85.6%
+[Sat 11/29/2025 14:47:43] MARKET=rebounds - Probability bucket calibration (test set):
+[Sat 11/29/2025 14:47:43]   0.00–<0.50: 89 bets, 14.6% hits
+[Sat 11/29/2025 14:47:43]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 14:47:43] Saved model to: over_model_rebounds.pkl
+[Sat 11/29/2025 14:47:43] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sat 11/29/2025 15:40:38] Starting over-model training v2...
+[Sat 11/29/2025 15:40:38] Loaded 9055 rows from prop_training_data.csv
+[Sat 11/29/2025 15:40:38] Labeled rows available for training: 2552
+[Sat 11/29/2025 15:40:38] Training GLOBAL model (all markets together)...
+[Sat 11/29/2025 15:40:38] GLOBAL - Training size: 2041, Test size: 511
+[Sat 11/29/2025 15:40:39] GLOBAL - Test AUC:   0.725
+[Sat 11/29/2025 15:40:39] GLOBAL - Brier:      0.1550 (lower is better)
+[Sat 11/29/2025 15:40:39] GLOBAL - Accuracy:   78.9%
+[Sat 11/29/2025 15:40:39] GLOBAL - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:40:39]   0.00–<0.50: 475 bets, 20.0% hits
+[Sat 11/29/2025 15:40:39]   0.50–<0.55: 5 bets, 80.0% hits
+[Sat 11/29/2025 15:40:39]   0.55–<0.60: 12 bets, 50.0% hits
+[Sat 11/29/2025 15:40:39]   0.60–<0.65: 7 bets, 42.9% hits
+[Sat 11/29/2025 15:40:39]   0.65–<0.70: 6 bets, 83.3% hits
+[Sat 11/29/2025 15:40:39]   0.70–<0.80: 5 bets, 80.0% hits
+[Sat 11/29/2025 15:40:39]   0.80–<0.90: 1 bets, 100.0% hits
+[Sat 11/29/2025 15:40:39] Saved model to: over_model.pkl
+[Sat 11/29/2025 15:40:39] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sat 11/29/2025 15:40:39] Training per-market model for 'assists' (362 rows)...
+[Sat 11/29/2025 15:40:39] MARKET=assists - Training size: 289, Test size: 73
+[Sat 11/29/2025 15:40:39] MARKET=assists - Test AUC:   0.738
+[Sat 11/29/2025 15:40:39] MARKET=assists - Brier:      0.0818 (lower is better)
+[Sat 11/29/2025 15:40:39] MARKET=assists - Accuracy:   90.4%
+[Sat 11/29/2025 15:40:39] MARKET=assists - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:40:39]   0.00–<0.50: 73 bets, 9.6% hits
+[Sat 11/29/2025 15:40:39] Saved model to: over_model_assists.pkl
+[Sat 11/29/2025 15:40:39] Training per-market model for 'fs' (286 rows)...
+[Sat 11/29/2025 15:40:39] MARKET=fs - Training size: 228, Test size: 58
+[Sat 11/29/2025 15:40:40] MARKET=fs - Test AUC:   0.542
+[Sat 11/29/2025 15:40:40] MARKET=fs - Brier:      0.2652 (lower is better)
+[Sat 11/29/2025 15:40:40] MARKET=fs - Accuracy:   48.3%
+[Sat 11/29/2025 15:40:40] MARKET=fs - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:40:40]   0.00–<0.50: 32 bets, 50.0% hits
+[Sat 11/29/2025 15:40:40]   0.50–<0.55: 5 bets, 20.0% hits
+[Sat 11/29/2025 15:40:40]   0.55–<0.60: 4 bets, 50.0% hits
+[Sat 11/29/2025 15:40:40]   0.60–<0.65: 5 bets, 40.0% hits
+[Sat 11/29/2025 15:40:40]   0.65–<0.70: 8 bets, 50.0% hits
+[Sat 11/29/2025 15:40:40]   0.70–<0.80: 3 bets, 100.0% hits
+[Sat 11/29/2025 15:40:40]   0.80–<0.90: 1 bets, 0.0% hits
+[Sat 11/29/2025 15:40:40] Saved model to: over_model_fs.pkl
+[Sat 11/29/2025 15:40:40] Training per-market model for 'points' (431 rows)...
+[Sat 11/29/2025 15:40:40] MARKET=points - Training size: 344, Test size: 87
+[Sat 11/29/2025 15:40:40] MARKET=points - Test AUC:   0.557
+[Sat 11/29/2025 15:40:40] MARKET=points - Brier:      0.1872 (lower is better)
+[Sat 11/29/2025 15:40:40] MARKET=points - Accuracy:   73.6%
+[Sat 11/29/2025 15:40:40] MARKET=points - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:40:40]   0.00–<0.50: 82 bets, 23.2% hits
+[Sat 11/29/2025 15:40:40]   0.50–<0.55: 2 bets, 0.0% hits
+[Sat 11/29/2025 15:40:40]   0.55–<0.60: 3 bets, 33.3% hits
+[Sat 11/29/2025 15:40:40] Saved model to: over_model_points.pkl
+[Sat 11/29/2025 15:40:40] Training per-market model for 'pra' (554 rows)...
+[Sat 11/29/2025 15:40:40] MARKET=pra - Training size: 443, Test size: 111
+[Sat 11/29/2025 15:40:41] MARKET=pra - Test AUC:   0.743
+[Sat 11/29/2025 15:40:41] MARKET=pra - Brier:      0.1732 (lower is better)
+[Sat 11/29/2025 15:40:41] MARKET=pra - Accuracy:   73.9%
+[Sat 11/29/2025 15:40:41] MARKET=pra - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:40:41]   0.00–<0.50: 102 bets, 25.5% hits
+[Sat 11/29/2025 15:40:41]   0.50–<0.55: 2 bets, 0.0% hits
+[Sat 11/29/2025 15:40:41]   0.55–<0.60: 4 bets, 75.0% hits
+[Sat 11/29/2025 15:40:41]   0.60–<0.65: 2 bets, 100.0% hits
+[Sat 11/29/2025 15:40:41]   0.70–<0.80: 1 bets, 100.0% hits
+[Sat 11/29/2025 15:40:41] Saved model to: over_model_pra.pkl
+[Sat 11/29/2025 15:40:41] Training per-market model for 'ra' (472 rows)...
+[Sat 11/29/2025 15:40:41] MARKET=ra - Training size: 377, Test size: 95
+[Sat 11/29/2025 15:40:41] MARKET=ra - Test AUC:   0.706
+[Sat 11/29/2025 15:40:41] MARKET=ra - Brier:      0.1300 (lower is better)
+[Sat 11/29/2025 15:40:41] MARKET=ra - Accuracy:   85.3%
+[Sat 11/29/2025 15:40:41] MARKET=ra - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:40:41]   0.00–<0.50: 91 bets, 15.4% hits
+[Sat 11/29/2025 15:40:41]   0.55–<0.60: 2 bets, 100.0% hits
+[Sat 11/29/2025 15:40:41]   0.60–<0.65: 1 bets, 100.0% hits
+[Sat 11/29/2025 15:40:41]   0.65–<0.70: 1 bets, 100.0% hits
+[Sat 11/29/2025 15:40:41] Saved model to: over_model_ra.pkl
+[Sat 11/29/2025 15:40:41] Training per-market model for 'rebounds' (447 rows)...
+[Sat 11/29/2025 15:40:41] MARKET=rebounds - Training size: 357, Test size: 90
+[Sat 11/29/2025 15:40:42] MARKET=rebounds - Test AUC:   0.662
+[Sat 11/29/2025 15:40:42] MARKET=rebounds - Brier:      0.1245 (lower is better)
+[Sat 11/29/2025 15:40:42] MARKET=rebounds - Accuracy:   85.6%
+[Sat 11/29/2025 15:40:42] MARKET=rebounds - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:40:42]   0.00–<0.50: 89 bets, 14.6% hits
+[Sat 11/29/2025 15:40:42]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 15:40:42] Saved model to: over_model_rebounds.pkl
+[Sat 11/29/2025 15:40:42] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sat 11/29/2025 15:43:33] Starting over-model training v2...
+[Sat 11/29/2025 15:43:33] Loaded 9055 rows from prop_training_data.csv
+[Sat 11/29/2025 15:43:33] Labeled rows available for training: 2552
+[Sat 11/29/2025 15:43:33] Training GLOBAL model (all markets together)...
+[Sat 11/29/2025 15:43:33] GLOBAL - Training size: 2041, Test size: 511
+[Sat 11/29/2025 15:43:33] GLOBAL - Test AUC:   0.725
+[Sat 11/29/2025 15:43:33] GLOBAL - Brier:      0.1550 (lower is better)
+[Sat 11/29/2025 15:43:33] GLOBAL - Accuracy:   78.9%
+[Sat 11/29/2025 15:43:33] GLOBAL - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:43:33]   0.00–<0.50: 475 bets, 20.0% hits
+[Sat 11/29/2025 15:43:33]   0.50–<0.55: 5 bets, 80.0% hits
+[Sat 11/29/2025 15:43:33]   0.55–<0.60: 12 bets, 50.0% hits
+[Sat 11/29/2025 15:43:33]   0.60–<0.65: 7 bets, 42.9% hits
+[Sat 11/29/2025 15:43:33]   0.65–<0.70: 6 bets, 83.3% hits
+[Sat 11/29/2025 15:43:33]   0.70–<0.80: 5 bets, 80.0% hits
+[Sat 11/29/2025 15:43:33]   0.80–<0.90: 1 bets, 100.0% hits
+[Sat 11/29/2025 15:43:33] Saved model to: over_model.pkl
+[Sat 11/29/2025 15:43:33] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sat 11/29/2025 15:43:33] Training per-market model for 'assists' (362 rows)...
+[Sat 11/29/2025 15:43:33] MARKET=assists - Training size: 289, Test size: 73
+[Sat 11/29/2025 15:43:34] MARKET=assists - Test AUC:   0.738
+[Sat 11/29/2025 15:43:34] MARKET=assists - Brier:      0.0818 (lower is better)
+[Sat 11/29/2025 15:43:34] MARKET=assists - Accuracy:   90.4%
+[Sat 11/29/2025 15:43:34] MARKET=assists - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:43:34]   0.00–<0.50: 73 bets, 9.6% hits
+[Sat 11/29/2025 15:43:34] Saved model to: over_model_assists.pkl
+[Sat 11/29/2025 15:43:34] Training per-market model for 'fs' (286 rows)...
+[Sat 11/29/2025 15:43:34] MARKET=fs - Training size: 228, Test size: 58
+[Sat 11/29/2025 15:43:34] MARKET=fs - Test AUC:   0.542
+[Sat 11/29/2025 15:43:34] MARKET=fs - Brier:      0.2652 (lower is better)
+[Sat 11/29/2025 15:43:34] MARKET=fs - Accuracy:   48.3%
+[Sat 11/29/2025 15:43:34] MARKET=fs - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:43:34]   0.00–<0.50: 32 bets, 50.0% hits
+[Sat 11/29/2025 15:43:34]   0.50–<0.55: 5 bets, 20.0% hits
+[Sat 11/29/2025 15:43:34]   0.55–<0.60: 4 bets, 50.0% hits
+[Sat 11/29/2025 15:43:34]   0.60–<0.65: 5 bets, 40.0% hits
+[Sat 11/29/2025 15:43:34]   0.65–<0.70: 8 bets, 50.0% hits
+[Sat 11/29/2025 15:43:34]   0.70–<0.80: 3 bets, 100.0% hits
+[Sat 11/29/2025 15:43:34]   0.80–<0.90: 1 bets, 0.0% hits
+[Sat 11/29/2025 15:43:35] Saved model to: over_model_fs.pkl
+[Sat 11/29/2025 15:43:35] Training per-market model for 'points' (431 rows)...
+[Sat 11/29/2025 15:43:35] MARKET=points - Training size: 344, Test size: 87
+[Sat 11/29/2025 15:43:35] MARKET=points - Test AUC:   0.557
+[Sat 11/29/2025 15:43:35] MARKET=points - Brier:      0.1872 (lower is better)
+[Sat 11/29/2025 15:43:35] MARKET=points - Accuracy:   73.6%
+[Sat 11/29/2025 15:43:35] MARKET=points - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:43:35]   0.00–<0.50: 82 bets, 23.2% hits
+[Sat 11/29/2025 15:43:35]   0.50–<0.55: 2 bets, 0.0% hits
+[Sat 11/29/2025 15:43:35]   0.55–<0.60: 3 bets, 33.3% hits
+[Sat 11/29/2025 15:43:35] Saved model to: over_model_points.pkl
+[Sat 11/29/2025 15:43:35] Training per-market model for 'pra' (554 rows)...
+[Sat 11/29/2025 15:43:35] MARKET=pra - Training size: 443, Test size: 111
+[Sat 11/29/2025 15:43:36] MARKET=pra - Test AUC:   0.743
+[Sat 11/29/2025 15:43:36] MARKET=pra - Brier:      0.1732 (lower is better)
+[Sat 11/29/2025 15:43:36] MARKET=pra - Accuracy:   73.9%
+[Sat 11/29/2025 15:43:36] MARKET=pra - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:43:36]   0.00–<0.50: 102 bets, 25.5% hits
+[Sat 11/29/2025 15:43:36]   0.50–<0.55: 2 bets, 0.0% hits
+[Sat 11/29/2025 15:43:36]   0.55–<0.60: 4 bets, 75.0% hits
+[Sat 11/29/2025 15:43:36]   0.60–<0.65: 2 bets, 100.0% hits
+[Sat 11/29/2025 15:43:36]   0.70–<0.80: 1 bets, 100.0% hits
+[Sat 11/29/2025 15:43:36] Saved model to: over_model_pra.pkl
+[Sat 11/29/2025 15:43:36] Training per-market model for 'ra' (472 rows)...
+[Sat 11/29/2025 15:43:36] MARKET=ra - Training size: 377, Test size: 95
+[Sat 11/29/2025 15:43:36] MARKET=ra - Test AUC:   0.706
+[Sat 11/29/2025 15:43:36] MARKET=ra - Brier:      0.1300 (lower is better)
+[Sat 11/29/2025 15:43:36] MARKET=ra - Accuracy:   85.3%
+[Sat 11/29/2025 15:43:36] MARKET=ra - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:43:36]   0.00–<0.50: 91 bets, 15.4% hits
+[Sat 11/29/2025 15:43:36]   0.55–<0.60: 2 bets, 100.0% hits
+[Sat 11/29/2025 15:43:36]   0.60–<0.65: 1 bets, 100.0% hits
+[Sat 11/29/2025 15:43:36]   0.65–<0.70: 1 bets, 100.0% hits
+[Sat 11/29/2025 15:43:36] Saved model to: over_model_ra.pkl
+[Sat 11/29/2025 15:43:36] Training per-market model for 'rebounds' (447 rows)...
+[Sat 11/29/2025 15:43:36] MARKET=rebounds - Training size: 357, Test size: 90
+[Sat 11/29/2025 15:43:37] MARKET=rebounds - Test AUC:   0.662
+[Sat 11/29/2025 15:43:37] MARKET=rebounds - Brier:      0.1245 (lower is better)
+[Sat 11/29/2025 15:43:37] MARKET=rebounds - Accuracy:   85.6%
+[Sat 11/29/2025 15:43:37] MARKET=rebounds - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:43:37]   0.00–<0.50: 89 bets, 14.6% hits
+[Sat 11/29/2025 15:43:37]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 15:43:37] Saved model to: over_model_rebounds.pkl
+[Sat 11/29/2025 15:43:37] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sat 11/29/2025 15:57:41] Starting over-model training v2...
+[Sat 11/29/2025 15:57:41] Loaded 9055 rows from prop_training_data.csv
+[Sat 11/29/2025 15:57:41] Labeled rows available for training: 2552
+[Sat 11/29/2025 15:57:41] Training GLOBAL model (all markets together)...
+[Sat 11/29/2025 15:57:41] GLOBAL - Training size: 2041, Test size: 511
+[Sat 11/29/2025 15:57:41] GLOBAL - Test AUC:   0.791
+[Sat 11/29/2025 15:57:41] GLOBAL - Brier:      0.1416 (lower is better)
+[Sat 11/29/2025 15:57:41] GLOBAL - Accuracy:   80.2%
+[Sat 11/29/2025 15:57:41] GLOBAL - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:57:41]   0.00–<0.50: 464 bets, 18.5% hits
+[Sat 11/29/2025 15:57:41]   0.50–<0.55: 18 bets, 55.6% hits
+[Sat 11/29/2025 15:57:41]   0.55–<0.60: 6 bets, 83.3% hits
+[Sat 11/29/2025 15:57:41]   0.60–<0.65: 9 bets, 66.7% hits
+[Sat 11/29/2025 15:57:41]   0.65–<0.70: 9 bets, 66.7% hits
+[Sat 11/29/2025 15:57:41]   0.70–<0.80: 3 bets, 100.0% hits
+[Sat 11/29/2025 15:57:41]   0.80–<0.90: 2 bets, 100.0% hits
+[Sat 11/29/2025 15:57:42] Saved model to: over_model.pkl
+[Sat 11/29/2025 15:57:42] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sat 11/29/2025 15:57:42] Training per-market model for 'assists' (362 rows)...
+[Sat 11/29/2025 15:57:42] MARKET=assists - Training size: 289, Test size: 73
+[Sat 11/29/2025 15:57:42] MARKET=assists - Test AUC:   0.775
+[Sat 11/29/2025 15:57:42] MARKET=assists - Brier:      0.0772 (lower is better)
+[Sat 11/29/2025 15:57:42] MARKET=assists - Accuracy:   90.4%
+[Sat 11/29/2025 15:57:42] MARKET=assists - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:57:42]   0.00–<0.50: 73 bets, 9.6% hits
+[Sat 11/29/2025 15:57:42] Saved model to: over_model_assists.pkl
+[Sat 11/29/2025 15:57:42] Training per-market model for 'fs' (286 rows)...
+[Sat 11/29/2025 15:57:42] MARKET=fs - Training size: 228, Test size: 58
+[Sat 11/29/2025 15:57:43] MARKET=fs - Test AUC:   0.631
+[Sat 11/29/2025 15:57:43] MARKET=fs - Brier:      0.2401 (lower is better)
+[Sat 11/29/2025 15:57:43] MARKET=fs - Accuracy:   65.5%
+[Sat 11/29/2025 15:57:43] MARKET=fs - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:57:43]   0.00–<0.50: 32 bets, 34.4% hits
+[Sat 11/29/2025 15:57:43]   0.50–<0.55: 6 bets, 50.0% hits
+[Sat 11/29/2025 15:57:43]   0.55–<0.60: 4 bets, 75.0% hits
+[Sat 11/29/2025 15:57:43]   0.60–<0.65: 7 bets, 57.1% hits
+[Sat 11/29/2025 15:57:43]   0.65–<0.70: 6 bets, 83.3% hits
+[Sat 11/29/2025 15:57:43]   0.70–<0.80: 3 bets, 66.7% hits
+[Sat 11/29/2025 15:57:43] Saved model to: over_model_fs.pkl
+[Sat 11/29/2025 15:57:43] Training per-market model for 'points' (431 rows)...
+[Sat 11/29/2025 15:57:43] MARKET=points - Training size: 344, Test size: 87
+[Sat 11/29/2025 15:57:43] MARKET=points - Test AUC:   0.616
+[Sat 11/29/2025 15:57:43] MARKET=points - Brier:      0.1737 (lower is better)
+[Sat 11/29/2025 15:57:43] MARKET=points - Accuracy:   78.2%
+[Sat 11/29/2025 15:57:43] MARKET=points - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:57:43]   0.00–<0.50: 84 bets, 21.4% hits
+[Sat 11/29/2025 15:57:43]   0.55–<0.60: 3 bets, 66.7% hits
+[Sat 11/29/2025 15:57:43] Saved model to: over_model_points.pkl
+[Sat 11/29/2025 15:57:43] Training per-market model for 'pra' (554 rows)...
+[Sat 11/29/2025 15:57:43] MARKET=pra - Training size: 443, Test size: 111
+[Sat 11/29/2025 15:57:44] MARKET=pra - Test AUC:   0.787
+[Sat 11/29/2025 15:57:44] MARKET=pra - Brier:      0.1623 (lower is better)
+[Sat 11/29/2025 15:57:44] MARKET=pra - Accuracy:   76.6%
+[Sat 11/29/2025 15:57:44] MARKET=pra - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:57:44]   0.00–<0.50: 99 bets, 23.2% hits
+[Sat 11/29/2025 15:57:44]   0.50–<0.55: 4 bets, 50.0% hits
+[Sat 11/29/2025 15:57:44]   0.55–<0.60: 3 bets, 100.0% hits
+[Sat 11/29/2025 15:57:44]   0.60–<0.65: 3 bets, 66.7% hits
+[Sat 11/29/2025 15:57:44]   0.70–<0.80: 2 bets, 100.0% hits
+[Sat 11/29/2025 15:57:44] Saved model to: over_model_pra.pkl
+[Sat 11/29/2025 15:57:44] Training per-market model for 'ra' (472 rows)...
+[Sat 11/29/2025 15:57:44] MARKET=ra - Training size: 377, Test size: 95
+[Sat 11/29/2025 15:57:45] MARKET=ra - Test AUC:   0.708
+[Sat 11/29/2025 15:57:45] MARKET=ra - Brier:      0.1277 (lower is better)
+[Sat 11/29/2025 15:57:45] MARKET=ra - Accuracy:   86.3%
+[Sat 11/29/2025 15:57:45] MARKET=ra - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:57:45]   0.00–<0.50: 90 bets, 14.4% hits
+[Sat 11/29/2025 15:57:45]   0.50–<0.55: 2 bets, 100.0% hits
+[Sat 11/29/2025 15:57:45]   0.55–<0.60: 1 bets, 100.0% hits
+[Sat 11/29/2025 15:57:45]   0.60–<0.65: 1 bets, 100.0% hits
+[Sat 11/29/2025 15:57:45]   0.70–<0.80: 1 bets, 100.0% hits
+[Sat 11/29/2025 15:57:45] Saved model to: over_model_ra.pkl
+[Sat 11/29/2025 15:57:45] Training per-market model for 'rebounds' (447 rows)...
+[Sat 11/29/2025 15:57:45] MARKET=rebounds - Training size: 357, Test size: 90
+[Sat 11/29/2025 15:57:45] MARKET=rebounds - Test AUC:   0.653
+[Sat 11/29/2025 15:57:45] MARKET=rebounds - Brier:      0.1214 (lower is better)
+[Sat 11/29/2025 15:57:45] MARKET=rebounds - Accuracy:   84.4%
+[Sat 11/29/2025 15:57:45] MARKET=rebounds - Probability bucket calibration (test set):
+[Sat 11/29/2025 15:57:45]   0.00–<0.50: 90 bets, 15.6% hits
+[Sat 11/29/2025 15:57:45] Saved model to: over_model_rebounds.pkl
+[Sat 11/29/2025 15:57:45] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sat 11/29/2025 16:05:24] Starting over-model training v2...
+[Sat 11/29/2025 16:05:24] Loaded 9094 rows from prop_training_data.csv
+[Sat 11/29/2025 16:05:24] Labeled rows available for training: 2552
+[Sat 11/29/2025 16:05:24] Training GLOBAL model (all markets together)...
+[Sat 11/29/2025 16:05:24] GLOBAL - Training size: 2041, Test size: 511
+[Sat 11/29/2025 16:05:25] GLOBAL - Test AUC:   0.790
+[Sat 11/29/2025 16:05:25] GLOBAL - Brier:      0.1414 (lower is better)
+[Sat 11/29/2025 16:05:25] GLOBAL - Accuracy:   79.6%
+[Sat 11/29/2025 16:05:25] GLOBAL - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:05:25]   0.00–<0.50: 463 bets, 18.8% hits
+[Sat 11/29/2025 16:05:25]   0.50–<0.55: 17 bets, 35.3% hits
+[Sat 11/29/2025 16:05:25]   0.55–<0.60: 11 bets, 72.7% hits
+[Sat 11/29/2025 16:05:25]   0.60–<0.65: 6 bets, 83.3% hits
+[Sat 11/29/2025 16:05:25]   0.65–<0.70: 8 bets, 75.0% hits
+[Sat 11/29/2025 16:05:25]   0.70–<0.80: 4 bets, 100.0% hits
+[Sat 11/29/2025 16:05:25]   0.80–<0.90: 2 bets, 100.0% hits
+[Sat 11/29/2025 16:05:25] Saved model to: over_model.pkl
+[Sat 11/29/2025 16:05:25] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sat 11/29/2025 16:05:25] Training per-market model for 'assists' (362 rows)...
+[Sat 11/29/2025 16:05:25] MARKET=assists - Training size: 289, Test size: 73
+[Sat 11/29/2025 16:05:25] MARKET=assists - Test AUC:   0.734
+[Sat 11/29/2025 16:05:25] MARKET=assists - Brier:      0.0789 (lower is better)
+[Sat 11/29/2025 16:05:25] MARKET=assists - Accuracy:   91.8%
+[Sat 11/29/2025 16:05:25] MARKET=assists - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:05:25]   0.00–<0.50: 72 bets, 8.3% hits
+[Sat 11/29/2025 16:05:25]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 16:05:25] Saved model to: over_model_assists.pkl
+[Sat 11/29/2025 16:05:25] Training per-market model for 'fs' (286 rows)...
+[Sat 11/29/2025 16:05:25] MARKET=fs - Training size: 228, Test size: 58
+[Sat 11/29/2025 16:05:26] MARKET=fs - Test AUC:   0.617
+[Sat 11/29/2025 16:05:26] MARKET=fs - Brier:      0.2445 (lower is better)
+[Sat 11/29/2025 16:05:26] MARKET=fs - Accuracy:   58.6%
+[Sat 11/29/2025 16:05:26] MARKET=fs - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:05:26]   0.00–<0.50: 30 bets, 40.0% hits
+[Sat 11/29/2025 16:05:26]   0.50–<0.55: 6 bets, 16.7% hits
+[Sat 11/29/2025 16:05:26]   0.55–<0.60: 6 bets, 83.3% hits
+[Sat 11/29/2025 16:05:26]   0.60–<0.65: 7 bets, 71.4% hits
+[Sat 11/29/2025 16:05:26]   0.65–<0.70: 6 bets, 50.0% hits
+[Sat 11/29/2025 16:05:26]   0.70–<0.80: 3 bets, 66.7% hits
+[Sat 11/29/2025 16:05:26] Saved model to: over_model_fs.pkl
+[Sat 11/29/2025 16:05:26] Training per-market model for 'points' (431 rows)...
+[Sat 11/29/2025 16:05:26] MARKET=points - Training size: 344, Test size: 87
+[Sat 11/29/2025 16:05:26] MARKET=points - Test AUC:   0.602
+[Sat 11/29/2025 16:05:26] MARKET=points - Brier:      0.1766 (lower is better)
+[Sat 11/29/2025 16:05:26] MARKET=points - Accuracy:   75.9%
+[Sat 11/29/2025 16:05:26] MARKET=points - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:05:26]   0.00–<0.50: 82 bets, 22.0% hits
+[Sat 11/29/2025 16:05:26]   0.50–<0.55: 3 bets, 0.0% hits
+[Sat 11/29/2025 16:05:26]   0.55–<0.60: 2 bets, 100.0% hits
+[Sat 11/29/2025 16:05:26] Saved model to: over_model_points.pkl
+[Sat 11/29/2025 16:05:26] Training per-market model for 'pra' (554 rows)...
+[Sat 11/29/2025 16:05:26] MARKET=pra - Training size: 443, Test size: 111
+[Sat 11/29/2025 16:05:27] MARKET=pra - Test AUC:   0.778
+[Sat 11/29/2025 16:05:27] MARKET=pra - Brier:      0.1633 (lower is better)
+[Sat 11/29/2025 16:05:27] MARKET=pra - Accuracy:   77.5%
+[Sat 11/29/2025 16:05:27] MARKET=pra - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:05:27]   0.00–<0.50: 102 bets, 23.5% hits
+[Sat 11/29/2025 16:05:27]   0.50–<0.55: 2 bets, 100.0% hits
+[Sat 11/29/2025 16:05:27]   0.55–<0.60: 2 bets, 100.0% hits
+[Sat 11/29/2025 16:05:27]   0.60–<0.65: 3 bets, 66.7% hits
+[Sat 11/29/2025 16:05:27]   0.70–<0.80: 2 bets, 100.0% hits
+[Sat 11/29/2025 16:05:27] Saved model to: over_model_pra.pkl
+[Sat 11/29/2025 16:05:27] Training per-market model for 'ra' (472 rows)...
+[Sat 11/29/2025 16:05:27] MARKET=ra - Training size: 377, Test size: 95
+[Sat 11/29/2025 16:05:27] MARKET=ra - Test AUC:   0.684
+[Sat 11/29/2025 16:05:27] MARKET=ra - Brier:      0.1306 (lower is better)
+[Sat 11/29/2025 16:05:27] MARKET=ra - Accuracy:   85.3%
+[Sat 11/29/2025 16:05:27] MARKET=ra - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:05:27]   0.00–<0.50: 91 bets, 15.4% hits
+[Sat 11/29/2025 16:05:27]   0.55–<0.60: 2 bets, 100.0% hits
+[Sat 11/29/2025 16:05:27]   0.60–<0.65: 1 bets, 100.0% hits
+[Sat 11/29/2025 16:05:27]   0.65–<0.70: 1 bets, 100.0% hits
+[Sat 11/29/2025 16:05:28] Saved model to: over_model_ra.pkl
+[Sat 11/29/2025 16:05:28] Training per-market model for 'rebounds' (447 rows)...
+[Sat 11/29/2025 16:05:28] MARKET=rebounds - Training size: 357, Test size: 90
+[Sat 11/29/2025 16:05:28] MARKET=rebounds - Test AUC:   0.667
+[Sat 11/29/2025 16:05:28] MARKET=rebounds - Brier:      0.1203 (lower is better)
+[Sat 11/29/2025 16:05:28] MARKET=rebounds - Accuracy:   84.4%
+[Sat 11/29/2025 16:05:28] MARKET=rebounds - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:05:28]   0.00–<0.50: 90 bets, 15.6% hits
+[Sat 11/29/2025 16:05:28] Saved model to: over_model_rebounds.pkl
+[Sat 11/29/2025 16:05:28] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sat 11/29/2025 16:13:13] Starting over-model training v2...
+[Sat 11/29/2025 16:13:13] Loaded 9104 rows from prop_training_data.csv
+[Sat 11/29/2025 16:13:13] Labeled rows available for training: 2552
+[Sat 11/29/2025 16:13:13] Training GLOBAL model (all markets together)...
+[Sat 11/29/2025 16:13:13] GLOBAL - Training size: 2041, Test size: 511
+[Sat 11/29/2025 16:13:14] GLOBAL - Test AUC:   0.790
+[Sat 11/29/2025 16:13:14] GLOBAL - Brier:      0.1414 (lower is better)
+[Sat 11/29/2025 16:13:14] GLOBAL - Accuracy:   79.6%
+[Sat 11/29/2025 16:13:14] GLOBAL - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:13:14]   0.00–<0.50: 463 bets, 18.8% hits
+[Sat 11/29/2025 16:13:14]   0.50–<0.55: 17 bets, 35.3% hits
+[Sat 11/29/2025 16:13:14]   0.55–<0.60: 11 bets, 72.7% hits
+[Sat 11/29/2025 16:13:14]   0.60–<0.65: 6 bets, 83.3% hits
+[Sat 11/29/2025 16:13:14]   0.65–<0.70: 8 bets, 75.0% hits
+[Sat 11/29/2025 16:13:14]   0.70–<0.80: 4 bets, 100.0% hits
+[Sat 11/29/2025 16:13:14]   0.80–<0.90: 2 bets, 100.0% hits
+[Sat 11/29/2025 16:13:14] Saved model to: over_model.pkl
+[Sat 11/29/2025 16:13:14] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sat 11/29/2025 16:13:14] Training per-market model for 'assists' (362 rows)...
+[Sat 11/29/2025 16:13:14] MARKET=assists - Training size: 289, Test size: 73
+[Sat 11/29/2025 16:13:14] MARKET=assists - Test AUC:   0.734
+[Sat 11/29/2025 16:13:14] MARKET=assists - Brier:      0.0789 (lower is better)
+[Sat 11/29/2025 16:13:14] MARKET=assists - Accuracy:   91.8%
+[Sat 11/29/2025 16:13:14] MARKET=assists - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:13:14]   0.00–<0.50: 72 bets, 8.3% hits
+[Sat 11/29/2025 16:13:14]   0.50–<0.55: 1 bets, 100.0% hits
+[Sat 11/29/2025 16:13:14] Saved model to: over_model_assists.pkl
+[Sat 11/29/2025 16:13:14] Training per-market model for 'fs' (286 rows)...
+[Sat 11/29/2025 16:13:14] MARKET=fs - Training size: 228, Test size: 58
+[Sat 11/29/2025 16:13:15] MARKET=fs - Test AUC:   0.617
+[Sat 11/29/2025 16:13:15] MARKET=fs - Brier:      0.2445 (lower is better)
+[Sat 11/29/2025 16:13:15] MARKET=fs - Accuracy:   58.6%
+[Sat 11/29/2025 16:13:15] MARKET=fs - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:13:15]   0.00–<0.50: 30 bets, 40.0% hits
+[Sat 11/29/2025 16:13:15]   0.50–<0.55: 6 bets, 16.7% hits
+[Sat 11/29/2025 16:13:15]   0.55–<0.60: 6 bets, 83.3% hits
+[Sat 11/29/2025 16:13:15]   0.60–<0.65: 7 bets, 71.4% hits
+[Sat 11/29/2025 16:13:15]   0.65–<0.70: 6 bets, 50.0% hits
+[Sat 11/29/2025 16:13:15]   0.70–<0.80: 3 bets, 66.7% hits
+[Sat 11/29/2025 16:13:15] Saved model to: over_model_fs.pkl
+[Sat 11/29/2025 16:13:15] Training per-market model for 'points' (431 rows)...
+[Sat 11/29/2025 16:13:15] MARKET=points - Training size: 344, Test size: 87
+[Sat 11/29/2025 16:13:15] MARKET=points - Test AUC:   0.602
+[Sat 11/29/2025 16:13:15] MARKET=points - Brier:      0.1766 (lower is better)
+[Sat 11/29/2025 16:13:15] MARKET=points - Accuracy:   75.9%
+[Sat 11/29/2025 16:13:15] MARKET=points - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:13:15]   0.00–<0.50: 82 bets, 22.0% hits
+[Sat 11/29/2025 16:13:15]   0.50–<0.55: 3 bets, 0.0% hits
+[Sat 11/29/2025 16:13:15]   0.55–<0.60: 2 bets, 100.0% hits
+[Sat 11/29/2025 16:13:15] Saved model to: over_model_points.pkl
+[Sat 11/29/2025 16:13:15] Training per-market model for 'pra' (554 rows)...
+[Sat 11/29/2025 16:13:15] MARKET=pra - Training size: 443, Test size: 111
+[Sat 11/29/2025 16:13:16] MARKET=pra - Test AUC:   0.778
+[Sat 11/29/2025 16:13:16] MARKET=pra - Brier:      0.1633 (lower is better)
+[Sat 11/29/2025 16:13:16] MARKET=pra - Accuracy:   77.5%
+[Sat 11/29/2025 16:13:16] MARKET=pra - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:13:16]   0.00–<0.50: 102 bets, 23.5% hits
+[Sat 11/29/2025 16:13:16]   0.50–<0.55: 2 bets, 100.0% hits
+[Sat 11/29/2025 16:13:16]   0.55–<0.60: 2 bets, 100.0% hits
+[Sat 11/29/2025 16:13:16]   0.60–<0.65: 3 bets, 66.7% hits
+[Sat 11/29/2025 16:13:16]   0.70–<0.80: 2 bets, 100.0% hits
+[Sat 11/29/2025 16:13:16] Saved model to: over_model_pra.pkl
+[Sat 11/29/2025 16:13:16] Training per-market model for 'ra' (472 rows)...
+[Sat 11/29/2025 16:13:16] MARKET=ra - Training size: 377, Test size: 95
+[Sat 11/29/2025 16:13:16] MARKET=ra - Test AUC:   0.684
+[Sat 11/29/2025 16:13:16] MARKET=ra - Brier:      0.1306 (lower is better)
+[Sat 11/29/2025 16:13:16] MARKET=ra - Accuracy:   85.3%
+[Sat 11/29/2025 16:13:16] MARKET=ra - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:13:16]   0.00–<0.50: 91 bets, 15.4% hits
+[Sat 11/29/2025 16:13:16]   0.55–<0.60: 2 bets, 100.0% hits
+[Sat 11/29/2025 16:13:16]   0.60–<0.65: 1 bets, 100.0% hits
+[Sat 11/29/2025 16:13:16]   0.65–<0.70: 1 bets, 100.0% hits
+[Sat 11/29/2025 16:13:17] Saved model to: over_model_ra.pkl
+[Sat 11/29/2025 16:13:17] Training per-market model for 'rebounds' (447 rows)...
+[Sat 11/29/2025 16:13:17] MARKET=rebounds - Training size: 357, Test size: 90
+[Sat 11/29/2025 16:13:17] MARKET=rebounds - Test AUC:   0.667
+[Sat 11/29/2025 16:13:17] MARKET=rebounds - Brier:      0.1203 (lower is better)
+[Sat 11/29/2025 16:13:17] MARKET=rebounds - Accuracy:   84.4%
+[Sat 11/29/2025 16:13:17] MARKET=rebounds - Probability bucket calibration (test set):
+[Sat 11/29/2025 16:13:17]   0.00–<0.50: 90 bets, 15.6% hits
+[Sat 11/29/2025 16:13:17] Saved model to: over_model_rebounds.pkl
+[Sat 11/29/2025 16:13:17] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sun 11/30/2025 11:30:21] Starting over-model training v2...
+[Sun 11/30/2025 11:30:21] Loaded 11783 rows from prop_training_data.csv
+[Sun 11/30/2025 11:30:21] Labeled rows available for training: 2552
+[Sun 11/30/2025 11:30:21] Training GLOBAL model (all markets together)...
+[Sun 11/30/2025 11:30:21] GLOBAL - Training size: 2041, Test size: 511
+[Sun 11/30/2025 11:30:22] GLOBAL - Test AUC:   0.790
+[Sun 11/30/2025 11:30:22] GLOBAL - Brier:      0.1414 (lower is better)
+[Sun 11/30/2025 11:30:22] GLOBAL - Accuracy:   79.6%
+[Sun 11/30/2025 11:30:22] GLOBAL - Probability bucket calibration (test set):
+[Sun 11/30/2025 11:30:22]   0.00–<0.50: 463 bets, 18.8% hits
+[Sun 11/30/2025 11:30:22]   0.50–<0.55: 17 bets, 35.3% hits
+[Sun 11/30/2025 11:30:22]   0.55–<0.60: 11 bets, 72.7% hits
+[Sun 11/30/2025 11:30:22]   0.60–<0.65: 6 bets, 83.3% hits
+[Sun 11/30/2025 11:30:22]   0.65–<0.70: 8 bets, 75.0% hits
+[Sun 11/30/2025 11:30:22]   0.70–<0.80: 4 bets, 100.0% hits
+[Sun 11/30/2025 11:30:22]   0.80–<0.90: 2 bets, 100.0% hits
+[Sun 11/30/2025 11:30:22] Saved model to: over_model.pkl
+[Sun 11/30/2025 11:30:22] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sun 11/30/2025 11:30:22] Training per-market model for 'assists' (362 rows)...
+[Sun 11/30/2025 11:30:22] MARKET=assists - Training size: 289, Test size: 73
+[Sun 11/30/2025 11:30:22] MARKET=assists - Test AUC:   0.734
+[Sun 11/30/2025 11:30:22] MARKET=assists - Brier:      0.0789 (lower is better)
+[Sun 11/30/2025 11:30:22] MARKET=assists - Accuracy:   91.8%
+[Sun 11/30/2025 11:30:22] MARKET=assists - Probability bucket calibration (test set):
+[Sun 11/30/2025 11:30:22]   0.00–<0.50: 72 bets, 8.3% hits
+[Sun 11/30/2025 11:30:22]   0.50–<0.55: 1 bets, 100.0% hits
+[Sun 11/30/2025 11:30:22] Saved model to: over_model_assists.pkl
+[Sun 11/30/2025 11:30:22] Training per-market model for 'fs' (286 rows)...
+[Sun 11/30/2025 11:30:22] MARKET=fs - Training size: 228, Test size: 58
+[Sun 11/30/2025 11:30:23] MARKET=fs - Test AUC:   0.617
+[Sun 11/30/2025 11:30:23] MARKET=fs - Brier:      0.2445 (lower is better)
+[Sun 11/30/2025 11:30:23] MARKET=fs - Accuracy:   58.6%
+[Sun 11/30/2025 11:30:23] MARKET=fs - Probability bucket calibration (test set):
+[Sun 11/30/2025 11:30:23]   0.00–<0.50: 30 bets, 40.0% hits
+[Sun 11/30/2025 11:30:23]   0.50–<0.55: 6 bets, 16.7% hits
+[Sun 11/30/2025 11:30:23]   0.55–<0.60: 6 bets, 83.3% hits
+[Sun 11/30/2025 11:30:23]   0.60–<0.65: 7 bets, 71.4% hits
+[Sun 11/30/2025 11:30:23]   0.65–<0.70: 6 bets, 50.0% hits
+[Sun 11/30/2025 11:30:23]   0.70–<0.80: 3 bets, 66.7% hits
+[Sun 11/30/2025 11:30:23] Saved model to: over_model_fs.pkl
+[Sun 11/30/2025 11:30:23] Training per-market model for 'points' (431 rows)...
+[Sun 11/30/2025 11:30:23] MARKET=points - Training size: 344, Test size: 87
+[Sun 11/30/2025 11:30:24] MARKET=points - Test AUC:   0.602
+[Sun 11/30/2025 11:30:24] MARKET=points - Brier:      0.1766 (lower is better)
+[Sun 11/30/2025 11:30:24] MARKET=points - Accuracy:   75.9%
+[Sun 11/30/2025 11:30:24] MARKET=points - Probability bucket calibration (test set):
+[Sun 11/30/2025 11:30:24]   0.00–<0.50: 82 bets, 22.0% hits
+[Sun 11/30/2025 11:30:24]   0.50–<0.55: 3 bets, 0.0% hits
+[Sun 11/30/2025 11:30:24]   0.55–<0.60: 2 bets, 100.0% hits
+[Sun 11/30/2025 11:30:24] Saved model to: over_model_points.pkl
+[Sun 11/30/2025 11:30:24] Training per-market model for 'pra' (554 rows)...
+[Sun 11/30/2025 11:30:24] MARKET=pra - Training size: 443, Test size: 111
+[Sun 11/30/2025 11:30:24] MARKET=pra - Test AUC:   0.778
+[Sun 11/30/2025 11:30:24] MARKET=pra - Brier:      0.1633 (lower is better)
+[Sun 11/30/2025 11:30:24] MARKET=pra - Accuracy:   77.5%
+[Sun 11/30/2025 11:30:24] MARKET=pra - Probability bucket calibration (test set):
+[Sun 11/30/2025 11:30:24]   0.00–<0.50: 102 bets, 23.5% hits
+[Sun 11/30/2025 11:30:24]   0.50–<0.55: 2 bets, 100.0% hits
+[Sun 11/30/2025 11:30:24]   0.55–<0.60: 2 bets, 100.0% hits
+[Sun 11/30/2025 11:30:24]   0.60–<0.65: 3 bets, 66.7% hits
+[Sun 11/30/2025 11:30:24]   0.70–<0.80: 2 bets, 100.0% hits
+[Sun 11/30/2025 11:30:24] Saved model to: over_model_pra.pkl
+[Sun 11/30/2025 11:30:24] Training per-market model for 'ra' (472 rows)...
+[Sun 11/30/2025 11:30:24] MARKET=ra - Training size: 377, Test size: 95
+[Sun 11/30/2025 11:30:25] MARKET=ra - Test AUC:   0.684
+[Sun 11/30/2025 11:30:25] MARKET=ra - Brier:      0.1306 (lower is better)
+[Sun 11/30/2025 11:30:25] MARKET=ra - Accuracy:   85.3%
+[Sun 11/30/2025 11:30:25] MARKET=ra - Probability bucket calibration (test set):
+[Sun 11/30/2025 11:30:25]   0.00–<0.50: 91 bets, 15.4% hits
+[Sun 11/30/2025 11:30:25]   0.55–<0.60: 2 bets, 100.0% hits
+[Sun 11/30/2025 11:30:25]   0.60–<0.65: 1 bets, 100.0% hits
+[Sun 11/30/2025 11:30:25]   0.65–<0.70: 1 bets, 100.0% hits
+[Sun 11/30/2025 11:30:25] Saved model to: over_model_ra.pkl
+[Sun 11/30/2025 11:30:25] Training per-market model for 'rebounds' (447 rows)...
+[Sun 11/30/2025 11:30:25] MARKET=rebounds - Training size: 357, Test size: 90
+[Sun 11/30/2025 11:30:26] MARKET=rebounds - Test AUC:   0.667
+[Sun 11/30/2025 11:30:26] MARKET=rebounds - Brier:      0.1203 (lower is better)
+[Sun 11/30/2025 11:30:26] MARKET=rebounds - Accuracy:   84.4%
+[Sun 11/30/2025 11:30:26] MARKET=rebounds - Probability bucket calibration (test set):
+[Sun 11/30/2025 11:30:26]   0.00–<0.50: 90 bets, 15.6% hits
+[Sun 11/30/2025 11:30:26] Saved model to: over_model_rebounds.pkl
+[Sun 11/30/2025 11:30:26] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sun 11/30/2025 12:02:10] Starting over-model training v2...
+[Sun 11/30/2025 12:02:10] Loaded 11784 rows from prop_training_data.csv
+[Sun 11/30/2025 12:02:10] Labeled rows available for training: 2552
+[Sun 11/30/2025 12:02:10] Training GLOBAL model (all markets together)...
+[Sun 11/30/2025 12:02:10] GLOBAL - Training size: 2041, Test size: 511
+[Sun 11/30/2025 12:02:11] GLOBAL - Test AUC:   0.790
+[Sun 11/30/2025 12:02:11] GLOBAL - Brier:      0.1414 (lower is better)
+[Sun 11/30/2025 12:02:11] GLOBAL - Accuracy:   79.6%
+[Sun 11/30/2025 12:02:11] GLOBAL - Probability bucket calibration (test set):
+[Sun 11/30/2025 12:02:11]   0.00–<0.50: 463 bets, 18.8% hits
+[Sun 11/30/2025 12:02:11]   0.50–<0.55: 17 bets, 35.3% hits
+[Sun 11/30/2025 12:02:11]   0.55–<0.60: 11 bets, 72.7% hits
+[Sun 11/30/2025 12:02:11]   0.60–<0.65: 6 bets, 83.3% hits
+[Sun 11/30/2025 12:02:11]   0.65–<0.70: 8 bets, 75.0% hits
+[Sun 11/30/2025 12:02:11]   0.70–<0.80: 4 bets, 100.0% hits
+[Sun 11/30/2025 12:02:11]   0.80–<0.90: 2 bets, 100.0% hits
+[Sun 11/30/2025 12:02:11] Saved model to: over_model.pkl
+[Sun 11/30/2025 12:02:11] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sun 11/30/2025 12:02:11] Training per-market model for 'assists' (362 rows)...
+[Sun 11/30/2025 12:02:11] MARKET=assists - Training size: 289, Test size: 73
+[Sun 11/30/2025 12:02:12] MARKET=assists - Test AUC:   0.734
+[Sun 11/30/2025 12:02:12] MARKET=assists - Brier:      0.0789 (lower is better)
+[Sun 11/30/2025 12:02:12] MARKET=assists - Accuracy:   91.8%
+[Sun 11/30/2025 12:02:12] MARKET=assists - Probability bucket calibration (test set):
+[Sun 11/30/2025 12:02:12]   0.00–<0.50: 72 bets, 8.3% hits
+[Sun 11/30/2025 12:02:12]   0.50–<0.55: 1 bets, 100.0% hits
+[Sun 11/30/2025 12:02:12] Saved model to: over_model_assists.pkl
+[Sun 11/30/2025 12:02:12] Training per-market model for 'fs' (286 rows)...
+[Sun 11/30/2025 12:02:12] MARKET=fs - Training size: 228, Test size: 58
+[Sun 11/30/2025 12:02:12] MARKET=fs - Test AUC:   0.617
+[Sun 11/30/2025 12:02:12] MARKET=fs - Brier:      0.2445 (lower is better)
+[Sun 11/30/2025 12:02:12] MARKET=fs - Accuracy:   58.6%
+[Sun 11/30/2025 12:02:12] MARKET=fs - Probability bucket calibration (test set):
+[Sun 11/30/2025 12:02:12]   0.00–<0.50: 30 bets, 40.0% hits
+[Sun 11/30/2025 12:02:12]   0.50–<0.55: 6 bets, 16.7% hits
+[Sun 11/30/2025 12:02:12]   0.55–<0.60: 6 bets, 83.3% hits
+[Sun 11/30/2025 12:02:12]   0.60–<0.65: 7 bets, 71.4% hits
+[Sun 11/30/2025 12:02:12]   0.65–<0.70: 6 bets, 50.0% hits
+[Sun 11/30/2025 12:02:12]   0.70–<0.80: 3 bets, 66.7% hits
+[Sun 11/30/2025 12:02:12] Saved model to: over_model_fs.pkl
+[Sun 11/30/2025 12:02:12] Training per-market model for 'points' (431 rows)...
+[Sun 11/30/2025 12:02:12] MARKET=points - Training size: 344, Test size: 87
+[Sun 11/30/2025 12:02:13] MARKET=points - Test AUC:   0.602
+[Sun 11/30/2025 12:02:13] MARKET=points - Brier:      0.1766 (lower is better)
+[Sun 11/30/2025 12:02:13] MARKET=points - Accuracy:   75.9%
+[Sun 11/30/2025 12:02:13] MARKET=points - Probability bucket calibration (test set):
+[Sun 11/30/2025 12:02:13]   0.00–<0.50: 82 bets, 22.0% hits
+[Sun 11/30/2025 12:02:13]   0.50–<0.55: 3 bets, 0.0% hits
+[Sun 11/30/2025 12:02:13]   0.55–<0.60: 2 bets, 100.0% hits
+[Sun 11/30/2025 12:02:13] Saved model to: over_model_points.pkl
+[Sun 11/30/2025 12:02:13] Training per-market model for 'pra' (554 rows)...
+[Sun 11/30/2025 12:02:13] MARKET=pra - Training size: 443, Test size: 111
+[Sun 11/30/2025 12:02:13] MARKET=pra - Test AUC:   0.778
+[Sun 11/30/2025 12:02:13] MARKET=pra - Brier:      0.1633 (lower is better)
+[Sun 11/30/2025 12:02:13] MARKET=pra - Accuracy:   77.5%
+[Sun 11/30/2025 12:02:13] MARKET=pra - Probability bucket calibration (test set):
+[Sun 11/30/2025 12:02:13]   0.00–<0.50: 102 bets, 23.5% hits
+[Sun 11/30/2025 12:02:13]   0.50–<0.55: 2 bets, 100.0% hits
+[Sun 11/30/2025 12:02:13]   0.55–<0.60: 2 bets, 100.0% hits
+[Sun 11/30/2025 12:02:13]   0.60–<0.65: 3 bets, 66.7% hits
+[Sun 11/30/2025 12:02:13]   0.70–<0.80: 2 bets, 100.0% hits
+[Sun 11/30/2025 12:02:13] Saved model to: over_model_pra.pkl
+[Sun 11/30/2025 12:02:13] Training per-market model for 'ra' (472 rows)...
+[Sun 11/30/2025 12:02:13] MARKET=ra - Training size: 377, Test size: 95
+[Sun 11/30/2025 12:02:14] MARKET=ra - Test AUC:   0.684
+[Sun 11/30/2025 12:02:14] MARKET=ra - Brier:      0.1306 (lower is better)
+[Sun 11/30/2025 12:02:14] MARKET=ra - Accuracy:   85.3%
+[Sun 11/30/2025 12:02:14] MARKET=ra - Probability bucket calibration (test set):
+[Sun 11/30/2025 12:02:14]   0.00–<0.50: 91 bets, 15.4% hits
+[Sun 11/30/2025 12:02:14]   0.55–<0.60: 2 bets, 100.0% hits
+[Sun 11/30/2025 12:02:14]   0.60–<0.65: 1 bets, 100.0% hits
+[Sun 11/30/2025 12:02:14]   0.65–<0.70: 1 bets, 100.0% hits
+[Sun 11/30/2025 12:02:14] Saved model to: over_model_ra.pkl
+[Sun 11/30/2025 12:02:14] Training per-market model for 'rebounds' (447 rows)...
+[Sun 11/30/2025 12:02:14] MARKET=rebounds - Training size: 357, Test size: 90
+[Sun 11/30/2025 12:02:14] MARKET=rebounds - Test AUC:   0.667
+[Sun 11/30/2025 12:02:14] MARKET=rebounds - Brier:      0.1203 (lower is better)
+[Sun 11/30/2025 12:02:14] MARKET=rebounds - Accuracy:   84.4%
+[Sun 11/30/2025 12:02:14] MARKET=rebounds - Probability bucket calibration (test set):
+[Sun 11/30/2025 12:02:14]   0.00–<0.50: 90 bets, 15.6% hits
+[Sun 11/30/2025 12:02:14] Saved model to: over_model_rebounds.pkl
+[Sun 11/30/2025 12:02:14] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sun 11/30/2025 19:58:33] Starting over-model training v2...
+[Sun 11/30/2025 19:58:33] Loaded 12385 rows from prop_training_data.csv
+[Sun 11/30/2025 19:58:33] Labeled rows available for training: 2552
+[Sun 11/30/2025 19:58:33] Training GLOBAL model (all markets together)...
+[Sun 11/30/2025 19:58:33] GLOBAL - Training size: 2041, Test size: 511
+[Sun 11/30/2025 19:58:33] GLOBAL - Test AUC:   0.790
+[Sun 11/30/2025 19:58:33] GLOBAL - Brier:      0.1414 (lower is better)
+[Sun 11/30/2025 19:58:33] GLOBAL - Accuracy:   79.6%
+[Sun 11/30/2025 19:58:33] GLOBAL - Probability bucket calibration (test set):
+[Sun 11/30/2025 19:58:33]   0.00–<0.50: 463 bets, 18.8% hits
+[Sun 11/30/2025 19:58:33]   0.50–<0.55: 17 bets, 35.3% hits
+[Sun 11/30/2025 19:58:33]   0.55–<0.60: 11 bets, 72.7% hits
+[Sun 11/30/2025 19:58:33]   0.60–<0.65: 6 bets, 83.3% hits
+[Sun 11/30/2025 19:58:33]   0.65–<0.70: 8 bets, 75.0% hits
+[Sun 11/30/2025 19:58:33]   0.70–<0.80: 4 bets, 100.0% hits
+[Sun 11/30/2025 19:58:33]   0.80–<0.90: 2 bets, 100.0% hits
+[Sun 11/30/2025 19:58:34] Saved model to: over_model.pkl
+[Sun 11/30/2025 19:58:34] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sun 11/30/2025 19:58:34] Training per-market model for 'assists' (362 rows)...
+[Sun 11/30/2025 19:58:34] MARKET=assists - Training size: 289, Test size: 73
+[Sun 11/30/2025 19:58:34] MARKET=assists - Test AUC:   0.734
+[Sun 11/30/2025 19:58:34] MARKET=assists - Brier:      0.0789 (lower is better)
+[Sun 11/30/2025 19:58:34] MARKET=assists - Accuracy:   91.8%
+[Sun 11/30/2025 19:58:34] MARKET=assists - Probability bucket calibration (test set):
+[Sun 11/30/2025 19:58:34]   0.00–<0.50: 72 bets, 8.3% hits
+[Sun 11/30/2025 19:58:34]   0.50–<0.55: 1 bets, 100.0% hits
+[Sun 11/30/2025 19:58:34] Saved model to: over_model_assists.pkl
+[Sun 11/30/2025 19:58:34] Training per-market model for 'fs' (286 rows)...
+[Sun 11/30/2025 19:58:34] MARKET=fs - Training size: 228, Test size: 58
+[Sun 11/30/2025 19:58:35] MARKET=fs - Test AUC:   0.617
+[Sun 11/30/2025 19:58:35] MARKET=fs - Brier:      0.2445 (lower is better)
+[Sun 11/30/2025 19:58:35] MARKET=fs - Accuracy:   58.6%
+[Sun 11/30/2025 19:58:35] MARKET=fs - Probability bucket calibration (test set):
+[Sun 11/30/2025 19:58:35]   0.00–<0.50: 30 bets, 40.0% hits
+[Sun 11/30/2025 19:58:35]   0.50–<0.55: 6 bets, 16.7% hits
+[Sun 11/30/2025 19:58:35]   0.55–<0.60: 6 bets, 83.3% hits
+[Sun 11/30/2025 19:58:35]   0.60–<0.65: 7 bets, 71.4% hits
+[Sun 11/30/2025 19:58:35]   0.65–<0.70: 6 bets, 50.0% hits
+[Sun 11/30/2025 19:58:35]   0.70–<0.80: 3 bets, 66.7% hits
+[Sun 11/30/2025 19:58:35] Saved model to: over_model_fs.pkl
+[Sun 11/30/2025 19:58:35] Training per-market model for 'points' (431 rows)...
+[Sun 11/30/2025 19:58:35] MARKET=points - Training size: 344, Test size: 87
+[Sun 11/30/2025 19:58:35] MARKET=points - Test AUC:   0.602
+[Sun 11/30/2025 19:58:35] MARKET=points - Brier:      0.1766 (lower is better)
+[Sun 11/30/2025 19:58:35] MARKET=points - Accuracy:   75.9%
+[Sun 11/30/2025 19:58:35] MARKET=points - Probability bucket calibration (test set):
+[Sun 11/30/2025 19:58:35]   0.00–<0.50: 82 bets, 22.0% hits
+[Sun 11/30/2025 19:58:35]   0.50–<0.55: 3 bets, 0.0% hits
+[Sun 11/30/2025 19:58:35]   0.55–<0.60: 2 bets, 100.0% hits
+[Sun 11/30/2025 19:58:35] Saved model to: over_model_points.pkl
+[Sun 11/30/2025 19:58:35] Training per-market model for 'pra' (554 rows)...
+[Sun 11/30/2025 19:58:35] MARKET=pra - Training size: 443, Test size: 111
+[Sun 11/30/2025 19:58:36] MARKET=pra - Test AUC:   0.778
+[Sun 11/30/2025 19:58:36] MARKET=pra - Brier:      0.1633 (lower is better)
+[Sun 11/30/2025 19:58:36] MARKET=pra - Accuracy:   77.5%
+[Sun 11/30/2025 19:58:36] MARKET=pra - Probability bucket calibration (test set):
+[Sun 11/30/2025 19:58:36]   0.00–<0.50: 102 bets, 23.5% hits
+[Sun 11/30/2025 19:58:36]   0.50–<0.55: 2 bets, 100.0% hits
+[Sun 11/30/2025 19:58:36]   0.55–<0.60: 2 bets, 100.0% hits
+[Sun 11/30/2025 19:58:36]   0.60–<0.65: 3 bets, 66.7% hits
+[Sun 11/30/2025 19:58:36]   0.70–<0.80: 2 bets, 100.0% hits
+[Sun 11/30/2025 19:58:36] Saved model to: over_model_pra.pkl
+[Sun 11/30/2025 19:58:36] Training per-market model for 'ra' (472 rows)...
+[Sun 11/30/2025 19:58:36] MARKET=ra - Training size: 377, Test size: 95
+[Sun 11/30/2025 19:58:36] MARKET=ra - Test AUC:   0.684
+[Sun 11/30/2025 19:58:36] MARKET=ra - Brier:      0.1306 (lower is better)
+[Sun 11/30/2025 19:58:36] MARKET=ra - Accuracy:   85.3%
+[Sun 11/30/2025 19:58:36] MARKET=ra - Probability bucket calibration (test set):
+[Sun 11/30/2025 19:58:36]   0.00–<0.50: 91 bets, 15.4% hits
+[Sun 11/30/2025 19:58:36]   0.55–<0.60: 2 bets, 100.0% hits
+[Sun 11/30/2025 19:58:36]   0.60–<0.65: 1 bets, 100.0% hits
+[Sun 11/30/2025 19:58:36]   0.65–<0.70: 1 bets, 100.0% hits
+[Sun 11/30/2025 19:58:36] Saved model to: over_model_ra.pkl
+[Sun 11/30/2025 19:58:36] Training per-market model for 'rebounds' (447 rows)...
+[Sun 11/30/2025 19:58:36] MARKET=rebounds - Training size: 357, Test size: 90
+[Sun 11/30/2025 19:58:37] MARKET=rebounds - Test AUC:   0.667
+[Sun 11/30/2025 19:58:37] MARKET=rebounds - Brier:      0.1203 (lower is better)
+[Sun 11/30/2025 19:58:37] MARKET=rebounds - Accuracy:   84.4%
+[Sun 11/30/2025 19:58:37] MARKET=rebounds - Probability bucket calibration (test set):
+[Sun 11/30/2025 19:58:37]   0.00–<0.50: 90 bets, 15.6% hits
+[Sun 11/30/2025 19:58:37] Saved model to: over_model_rebounds.pkl
+[Sun 11/30/2025 19:58:37] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sun 11/30/2025 20:29:05] Starting over-model training v2...
+[Sun 11/30/2025 20:29:06] Loaded 12385 rows from prop_training_data.csv
+[Sun 11/30/2025 20:29:06] Labeled rows available for training: 2552
+[Sun 11/30/2025 20:29:06] Training GLOBAL model (all markets together)...
+[Sun 11/30/2025 20:29:06] GLOBAL - Training size: 2041, Test size: 511
+[Sun 11/30/2025 20:29:06] GLOBAL - Test AUC:   0.804
+[Sun 11/30/2025 20:29:06] GLOBAL - Brier:      0.1403 (lower is better)
+[Sun 11/30/2025 20:29:06] GLOBAL - Accuracy:   79.5%
+[Sun 11/30/2025 20:29:06] GLOBAL - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:29:06]   0.00–<0.50: 464 bets, 19.0% hits
+[Sun 11/30/2025 20:29:06]   0.50–<0.55: 16 bets, 31.2% hits
+[Sun 11/30/2025 20:29:06]   0.55–<0.60: 9 bets, 88.9% hits
+[Sun 11/30/2025 20:29:06]   0.60–<0.65: 9 bets, 77.8% hits
+[Sun 11/30/2025 20:29:06]   0.65–<0.70: 6 bets, 83.3% hits
+[Sun 11/30/2025 20:29:06]   0.70–<0.80: 5 bets, 60.0% hits
+[Sun 11/30/2025 20:29:06]   0.80–<0.90: 2 bets, 100.0% hits
+[Sun 11/30/2025 20:29:06] Saved model to: over_model.pkl
+[Sun 11/30/2025 20:29:06] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sun 11/30/2025 20:29:06] Training per-market model for 'assists' (362 rows)...
+[Sun 11/30/2025 20:29:06] MARKET=assists - Training size: 289, Test size: 73
+[Sun 11/30/2025 20:29:07] MARKET=assists - Test AUC:   0.764
+[Sun 11/30/2025 20:29:07] MARKET=assists - Brier:      0.0796 (lower is better)
+[Sun 11/30/2025 20:29:07] MARKET=assists - Accuracy:   90.4%
+[Sun 11/30/2025 20:29:07] MARKET=assists - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:29:07]   0.00–<0.50: 73 bets, 9.6% hits
+[Sun 11/30/2025 20:29:07] Saved model to: over_model_assists.pkl
+[Sun 11/30/2025 20:29:07] Training per-market model for 'fs' (286 rows)...
+[Sun 11/30/2025 20:29:07] MARKET=fs - Training size: 228, Test size: 58
+[Sun 11/30/2025 20:29:07] MARKET=fs - Test AUC:   0.592
+[Sun 11/30/2025 20:29:07] MARKET=fs - Brier:      0.2448 (lower is better)
+[Sun 11/30/2025 20:29:07] MARKET=fs - Accuracy:   56.9%
+[Sun 11/30/2025 20:29:07] MARKET=fs - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:29:07]   0.00–<0.50: 33 bets, 42.4% hits
+[Sun 11/30/2025 20:29:07]   0.50–<0.55: 6 bets, 33.3% hits
+[Sun 11/30/2025 20:29:07]   0.55–<0.60: 5 bets, 60.0% hits
+[Sun 11/30/2025 20:29:07]   0.60–<0.65: 7 bets, 42.9% hits
+[Sun 11/30/2025 20:29:07]   0.65–<0.70: 2 bets, 100.0% hits
+[Sun 11/30/2025 20:29:07]   0.70–<0.80: 5 bets, 80.0% hits
+[Sun 11/30/2025 20:29:07] Saved model to: over_model_fs.pkl
+[Sun 11/30/2025 20:29:07] Training per-market model for 'points' (431 rows)...
+[Sun 11/30/2025 20:29:07] MARKET=points - Training size: 344, Test size: 87
+[Sun 11/30/2025 20:29:08] MARKET=points - Test AUC:   0.586
+[Sun 11/30/2025 20:29:08] MARKET=points - Brier:      0.1797 (lower is better)
+[Sun 11/30/2025 20:29:08] MARKET=points - Accuracy:   78.2%
+[Sun 11/30/2025 20:29:08] MARKET=points - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:29:08]   0.00–<0.50: 84 bets, 21.4% hits
+[Sun 11/30/2025 20:29:08]   0.50–<0.55: 3 bets, 66.7% hits
+[Sun 11/30/2025 20:29:08] Saved model to: over_model_points.pkl
+[Sun 11/30/2025 20:29:08] Training per-market model for 'pra' (554 rows)...
+[Sun 11/30/2025 20:29:08] MARKET=pra - Training size: 443, Test size: 111
+[Sun 11/30/2025 20:29:08] MARKET=pra - Test AUC:   0.779
+[Sun 11/30/2025 20:29:08] MARKET=pra - Brier:      0.1676 (lower is better)
+[Sun 11/30/2025 20:29:08] MARKET=pra - Accuracy:   75.7%
+[Sun 11/30/2025 20:29:08] MARKET=pra - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:29:08]   0.00–<0.50: 102 bets, 24.5% hits
+[Sun 11/30/2025 20:29:08]   0.50–<0.55: 4 bets, 75.0% hits
+[Sun 11/30/2025 20:29:08]   0.55–<0.60: 3 bets, 66.7% hits
+[Sun 11/30/2025 20:29:08]   0.65–<0.70: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:29:08]   0.80–<0.90: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:29:09] Saved model to: over_model_pra.pkl
+[Sun 11/30/2025 20:29:09] Training per-market model for 'ra' (472 rows)...
+[Sun 11/30/2025 20:29:09] MARKET=ra - Training size: 377, Test size: 95
+[Sun 11/30/2025 20:29:09] MARKET=ra - Test AUC:   0.707
+[Sun 11/30/2025 20:29:09] MARKET=ra - Brier:      0.1288 (lower is better)
+[Sun 11/30/2025 20:29:09] MARKET=ra - Accuracy:   86.3%
+[Sun 11/30/2025 20:29:09] MARKET=ra - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:29:09]   0.00–<0.50: 90 bets, 14.4% hits
+[Sun 11/30/2025 20:29:09]   0.50–<0.55: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:29:09]   0.55–<0.60: 2 bets, 100.0% hits
+[Sun 11/30/2025 20:29:09]   0.60–<0.65: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:29:09]   0.70–<0.80: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:29:09] Saved model to: over_model_ra.pkl
+[Sun 11/30/2025 20:29:09] Training per-market model for 'rebounds' (447 rows)...
+[Sun 11/30/2025 20:29:09] MARKET=rebounds - Training size: 357, Test size: 90
+[Sun 11/30/2025 20:29:10] MARKET=rebounds - Test AUC:   0.667
+[Sun 11/30/2025 20:29:10] MARKET=rebounds - Brier:      0.1207 (lower is better)
+[Sun 11/30/2025 20:29:10] MARKET=rebounds - Accuracy:   84.4%
+[Sun 11/30/2025 20:29:10] MARKET=rebounds - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:29:10]   0.00–<0.50: 90 bets, 15.6% hits
+[Sun 11/30/2025 20:29:10] Saved model to: over_model_rebounds.pkl
+[Sun 11/30/2025 20:29:10] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sun 11/30/2025 20:32:11] Starting over-model training v2...
+[Sun 11/30/2025 20:32:11] Loaded 12385 rows from prop_training_data.csv
+[Sun 11/30/2025 20:32:11] Labeled rows available for training: 2552
+[Sun 11/30/2025 20:32:11] Training GLOBAL model (all markets together)...
+[Sun 11/30/2025 20:32:11] GLOBAL - Training size: 2041, Test size: 511
+[Sun 11/30/2025 20:32:11] GLOBAL - Test AUC:   0.804
+[Sun 11/30/2025 20:32:11] GLOBAL - Brier:      0.1403 (lower is better)
+[Sun 11/30/2025 20:32:11] GLOBAL - Accuracy:   79.5%
+[Sun 11/30/2025 20:32:11] GLOBAL - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:32:11]   0.00–<0.50: 464 bets, 19.0% hits
+[Sun 11/30/2025 20:32:11]   0.50–<0.55: 16 bets, 31.2% hits
+[Sun 11/30/2025 20:32:11]   0.55–<0.60: 9 bets, 88.9% hits
+[Sun 11/30/2025 20:32:11]   0.60–<0.65: 9 bets, 77.8% hits
+[Sun 11/30/2025 20:32:11]   0.65–<0.70: 6 bets, 83.3% hits
+[Sun 11/30/2025 20:32:11]   0.70–<0.80: 5 bets, 60.0% hits
+[Sun 11/30/2025 20:32:11]   0.80–<0.90: 2 bets, 100.0% hits
+[Sun 11/30/2025 20:32:11] Saved model to: over_model.pkl
+[Sun 11/30/2025 20:32:11] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sun 11/30/2025 20:32:11] Training per-market model for 'assists' (362 rows)...
+[Sun 11/30/2025 20:32:11] MARKET=assists - Training size: 289, Test size: 73
+[Sun 11/30/2025 20:32:12] MARKET=assists - Test AUC:   0.764
+[Sun 11/30/2025 20:32:12] MARKET=assists - Brier:      0.0796 (lower is better)
+[Sun 11/30/2025 20:32:12] MARKET=assists - Accuracy:   90.4%
+[Sun 11/30/2025 20:32:12] MARKET=assists - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:32:12]   0.00–<0.50: 73 bets, 9.6% hits
+[Sun 11/30/2025 20:32:12] Saved model to: over_model_assists.pkl
+[Sun 11/30/2025 20:32:12] Training per-market model for 'fs' (286 rows)...
+[Sun 11/30/2025 20:32:12] MARKET=fs - Training size: 228, Test size: 58
+[Sun 11/30/2025 20:32:12] MARKET=fs - Test AUC:   0.592
+[Sun 11/30/2025 20:32:12] MARKET=fs - Brier:      0.2448 (lower is better)
+[Sun 11/30/2025 20:32:12] MARKET=fs - Accuracy:   56.9%
+[Sun 11/30/2025 20:32:12] MARKET=fs - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:32:12]   0.00–<0.50: 33 bets, 42.4% hits
+[Sun 11/30/2025 20:32:12]   0.50–<0.55: 6 bets, 33.3% hits
+[Sun 11/30/2025 20:32:12]   0.55–<0.60: 5 bets, 60.0% hits
+[Sun 11/30/2025 20:32:12]   0.60–<0.65: 7 bets, 42.9% hits
+[Sun 11/30/2025 20:32:12]   0.65–<0.70: 2 bets, 100.0% hits
+[Sun 11/30/2025 20:32:12]   0.70–<0.80: 5 bets, 80.0% hits
+[Sun 11/30/2025 20:32:13] Saved model to: over_model_fs.pkl
+[Sun 11/30/2025 20:32:13] Training per-market model for 'points' (431 rows)...
+[Sun 11/30/2025 20:32:13] MARKET=points - Training size: 344, Test size: 87
+[Sun 11/30/2025 20:32:13] MARKET=points - Test AUC:   0.586
+[Sun 11/30/2025 20:32:13] MARKET=points - Brier:      0.1797 (lower is better)
+[Sun 11/30/2025 20:32:13] MARKET=points - Accuracy:   78.2%
+[Sun 11/30/2025 20:32:13] MARKET=points - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:32:13]   0.00–<0.50: 84 bets, 21.4% hits
+[Sun 11/30/2025 20:32:13]   0.50–<0.55: 3 bets, 66.7% hits
+[Sun 11/30/2025 20:32:13] Saved model to: over_model_points.pkl
+[Sun 11/30/2025 20:32:13] Training per-market model for 'pra' (554 rows)...
+[Sun 11/30/2025 20:32:13] MARKET=pra - Training size: 443, Test size: 111
+[Sun 11/30/2025 20:32:14] MARKET=pra - Test AUC:   0.779
+[Sun 11/30/2025 20:32:14] MARKET=pra - Brier:      0.1676 (lower is better)
+[Sun 11/30/2025 20:32:14] MARKET=pra - Accuracy:   75.7%
+[Sun 11/30/2025 20:32:14] MARKET=pra - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:32:14]   0.00–<0.50: 102 bets, 24.5% hits
+[Sun 11/30/2025 20:32:14]   0.50–<0.55: 4 bets, 75.0% hits
+[Sun 11/30/2025 20:32:14]   0.55–<0.60: 3 bets, 66.7% hits
+[Sun 11/30/2025 20:32:14]   0.65–<0.70: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:32:14]   0.80–<0.90: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:32:14] Saved model to: over_model_pra.pkl
+[Sun 11/30/2025 20:32:14] Training per-market model for 'ra' (472 rows)...
+[Sun 11/30/2025 20:32:14] MARKET=ra - Training size: 377, Test size: 95
+[Sun 11/30/2025 20:32:14] MARKET=ra - Test AUC:   0.707
+[Sun 11/30/2025 20:32:14] MARKET=ra - Brier:      0.1288 (lower is better)
+[Sun 11/30/2025 20:32:14] MARKET=ra - Accuracy:   86.3%
+[Sun 11/30/2025 20:32:14] MARKET=ra - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:32:14]   0.00–<0.50: 90 bets, 14.4% hits
+[Sun 11/30/2025 20:32:14]   0.50–<0.55: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:32:14]   0.55–<0.60: 2 bets, 100.0% hits
+[Sun 11/30/2025 20:32:14]   0.60–<0.65: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:32:14]   0.70–<0.80: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:32:14] Saved model to: over_model_ra.pkl
+[Sun 11/30/2025 20:32:14] Training per-market model for 'rebounds' (447 rows)...
+[Sun 11/30/2025 20:32:14] MARKET=rebounds - Training size: 357, Test size: 90
+[Sun 11/30/2025 20:32:15] MARKET=rebounds - Test AUC:   0.667
+[Sun 11/30/2025 20:32:15] MARKET=rebounds - Brier:      0.1207 (lower is better)
+[Sun 11/30/2025 20:32:15] MARKET=rebounds - Accuracy:   84.4%
+[Sun 11/30/2025 20:32:15] MARKET=rebounds - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:32:15]   0.00–<0.50: 90 bets, 15.6% hits
+[Sun 11/30/2025 20:32:15] Saved model to: over_model_rebounds.pkl
+[Sun 11/30/2025 20:32:15] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sun 11/30/2025 20:37:18] Starting over-model training v2...
+[Sun 11/30/2025 20:37:18] Loaded 12385 rows from prop_training_data.csv
+[Sun 11/30/2025 20:37:18] Labeled rows available for training: 2552
+[Sun 11/30/2025 20:37:18] Training GLOBAL model (all markets together)...
+[Sun 11/30/2025 20:37:18] GLOBAL - Training size: 2041, Test size: 511
+[Sun 11/30/2025 20:37:19] GLOBAL - Test AUC:   0.804
+[Sun 11/30/2025 20:37:19] GLOBAL - Brier:      0.1403 (lower is better)
+[Sun 11/30/2025 20:37:19] GLOBAL - Accuracy:   79.5%
+[Sun 11/30/2025 20:37:19] GLOBAL - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:37:19]   0.00–<0.50: 464 bets, 19.0% hits
+[Sun 11/30/2025 20:37:19]   0.50–<0.55: 16 bets, 31.2% hits
+[Sun 11/30/2025 20:37:19]   0.55–<0.60: 9 bets, 88.9% hits
+[Sun 11/30/2025 20:37:19]   0.60–<0.65: 9 bets, 77.8% hits
+[Sun 11/30/2025 20:37:19]   0.65–<0.70: 6 bets, 83.3% hits
+[Sun 11/30/2025 20:37:19]   0.70–<0.80: 5 bets, 60.0% hits
+[Sun 11/30/2025 20:37:19]   0.80–<0.90: 2 bets, 100.0% hits
+[Sun 11/30/2025 20:37:19] Saved model to: over_model.pkl
+[Sun 11/30/2025 20:37:19] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sun 11/30/2025 20:37:19] Training per-market model for 'assists' (362 rows)...
+[Sun 11/30/2025 20:37:19] MARKET=assists - Training size: 289, Test size: 73
+[Sun 11/30/2025 20:37:19] MARKET=assists - Test AUC:   0.764
+[Sun 11/30/2025 20:37:19] MARKET=assists - Brier:      0.0796 (lower is better)
+[Sun 11/30/2025 20:37:19] MARKET=assists - Accuracy:   90.4%
+[Sun 11/30/2025 20:37:19] MARKET=assists - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:37:19]   0.00–<0.50: 73 bets, 9.6% hits
+[Sun 11/30/2025 20:37:19] Saved model to: over_model_assists.pkl
+[Sun 11/30/2025 20:37:19] Training per-market model for 'fs' (286 rows)...
+[Sun 11/30/2025 20:37:19] MARKET=fs - Training size: 228, Test size: 58
+[Sun 11/30/2025 20:37:20] MARKET=fs - Test AUC:   0.592
+[Sun 11/30/2025 20:37:20] MARKET=fs - Brier:      0.2448 (lower is better)
+[Sun 11/30/2025 20:37:20] MARKET=fs - Accuracy:   56.9%
+[Sun 11/30/2025 20:37:20] MARKET=fs - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:37:20]   0.00–<0.50: 33 bets, 42.4% hits
+[Sun 11/30/2025 20:37:20]   0.50–<0.55: 6 bets, 33.3% hits
+[Sun 11/30/2025 20:37:20]   0.55–<0.60: 5 bets, 60.0% hits
+[Sun 11/30/2025 20:37:20]   0.60–<0.65: 7 bets, 42.9% hits
+[Sun 11/30/2025 20:37:20]   0.65–<0.70: 2 bets, 100.0% hits
+[Sun 11/30/2025 20:37:20]   0.70–<0.80: 5 bets, 80.0% hits
+[Sun 11/30/2025 20:37:20] Saved model to: over_model_fs.pkl
+[Sun 11/30/2025 20:37:20] Training per-market model for 'points' (431 rows)...
+[Sun 11/30/2025 20:37:20] MARKET=points - Training size: 344, Test size: 87
+[Sun 11/30/2025 20:37:20] MARKET=points - Test AUC:   0.586
+[Sun 11/30/2025 20:37:20] MARKET=points - Brier:      0.1797 (lower is better)
+[Sun 11/30/2025 20:37:20] MARKET=points - Accuracy:   78.2%
+[Sun 11/30/2025 20:37:20] MARKET=points - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:37:20]   0.00–<0.50: 84 bets, 21.4% hits
+[Sun 11/30/2025 20:37:20]   0.50–<0.55: 3 bets, 66.7% hits
+[Sun 11/30/2025 20:37:20] Saved model to: over_model_points.pkl
+[Sun 11/30/2025 20:37:20] Training per-market model for 'pra' (554 rows)...
+[Sun 11/30/2025 20:37:20] MARKET=pra - Training size: 443, Test size: 111
+[Sun 11/30/2025 20:37:21] MARKET=pra - Test AUC:   0.779
+[Sun 11/30/2025 20:37:21] MARKET=pra - Brier:      0.1676 (lower is better)
+[Sun 11/30/2025 20:37:21] MARKET=pra - Accuracy:   75.7%
+[Sun 11/30/2025 20:37:21] MARKET=pra - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:37:21]   0.00–<0.50: 102 bets, 24.5% hits
+[Sun 11/30/2025 20:37:21]   0.50–<0.55: 4 bets, 75.0% hits
+[Sun 11/30/2025 20:37:21]   0.55–<0.60: 3 bets, 66.7% hits
+[Sun 11/30/2025 20:37:21]   0.65–<0.70: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:37:21]   0.80–<0.90: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:37:21] Saved model to: over_model_pra.pkl
+[Sun 11/30/2025 20:37:21] Training per-market model for 'ra' (472 rows)...
+[Sun 11/30/2025 20:37:21] MARKET=ra - Training size: 377, Test size: 95
+[Sun 11/30/2025 20:37:21] MARKET=ra - Test AUC:   0.707
+[Sun 11/30/2025 20:37:21] MARKET=ra - Brier:      0.1288 (lower is better)
+[Sun 11/30/2025 20:37:21] MARKET=ra - Accuracy:   86.3%
+[Sun 11/30/2025 20:37:21] MARKET=ra - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:37:21]   0.00–<0.50: 90 bets, 14.4% hits
+[Sun 11/30/2025 20:37:21]   0.50–<0.55: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:37:21]   0.55–<0.60: 2 bets, 100.0% hits
+[Sun 11/30/2025 20:37:21]   0.60–<0.65: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:37:21]   0.70–<0.80: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:37:21] Saved model to: over_model_ra.pkl
+[Sun 11/30/2025 20:37:21] Training per-market model for 'rebounds' (447 rows)...
+[Sun 11/30/2025 20:37:21] MARKET=rebounds - Training size: 357, Test size: 90
+[Sun 11/30/2025 20:37:22] MARKET=rebounds - Test AUC:   0.667
+[Sun 11/30/2025 20:37:22] MARKET=rebounds - Brier:      0.1207 (lower is better)
+[Sun 11/30/2025 20:37:22] MARKET=rebounds - Accuracy:   84.4%
+[Sun 11/30/2025 20:37:22] MARKET=rebounds - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:37:22]   0.00–<0.50: 90 bets, 15.6% hits
+[Sun 11/30/2025 20:37:22] Saved model to: over_model_rebounds.pkl
+[Sun 11/30/2025 20:37:22] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sun 11/30/2025 20:43:48] Starting over-model training v2...
+[Sun 11/30/2025 20:43:48] Loaded 12385 rows from prop_training_data.csv
+[Sun 11/30/2025 20:43:48] Labeled rows available for training: 2552
+[Sun 11/30/2025 20:43:48] Training GLOBAL model (all markets together)...
+[Sun 11/30/2025 20:43:48] GLOBAL - Training size: 2041, Test size: 511
+[Sun 11/30/2025 20:43:48] GLOBAL - Test AUC:   0.808
+[Sun 11/30/2025 20:43:48] GLOBAL - Brier:      0.1405 (lower is better)
+[Sun 11/30/2025 20:43:48] GLOBAL - Accuracy:   79.3%
+[Sun 11/30/2025 20:43:48] GLOBAL - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:43:48]   0.00–<0.50: 465 bets, 19.1% hits
+[Sun 11/30/2025 20:43:48]   0.50–<0.55: 14 bets, 50.0% hits
+[Sun 11/30/2025 20:43:48]   0.55–<0.60: 12 bets, 58.3% hits
+[Sun 11/30/2025 20:43:48]   0.60–<0.65: 9 bets, 66.7% hits
+[Sun 11/30/2025 20:43:48]   0.65–<0.70: 7 bets, 71.4% hits
+[Sun 11/30/2025 20:43:48]   0.70–<0.80: 4 bets, 100.0% hits
+[Sun 11/30/2025 20:43:48] Saved model to: over_model.pkl
+[Sun 11/30/2025 20:43:48] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sun 11/30/2025 20:46:56] Starting over-model training v2...
+[Sun 11/30/2025 20:46:56] Loaded 12385 rows from prop_training_data.csv
+[Sun 11/30/2025 20:46:56] Labeled rows available for training: 2552
+[Sun 11/30/2025 20:46:56] Training GLOBAL model (all markets together)...
+[Sun 11/30/2025 20:46:56] GLOBAL - Training size: 2041, Test size: 511
+[Sun 11/30/2025 20:46:56] GLOBAL - Test AUC:   0.808
+[Sun 11/30/2025 20:46:56] GLOBAL - Brier:      0.1405 (lower is better)
+[Sun 11/30/2025 20:46:56] GLOBAL - Accuracy:   79.3%
+[Sun 11/30/2025 20:46:56] GLOBAL - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:46:56]   0.00–<0.50: 465 bets, 19.1% hits
+[Sun 11/30/2025 20:46:56]   0.50–<0.55: 14 bets, 50.0% hits
+[Sun 11/30/2025 20:46:56]   0.55–<0.60: 12 bets, 58.3% hits
+[Sun 11/30/2025 20:46:56]   0.60–<0.65: 9 bets, 66.7% hits
+[Sun 11/30/2025 20:46:56]   0.65–<0.70: 7 bets, 71.4% hits
+[Sun 11/30/2025 20:46:56]   0.70–<0.80: 4 bets, 100.0% hits
+[Sun 11/30/2025 20:46:57] Saved model to: over_model.pkl
+[Sun 11/30/2025 20:46:57] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sun 11/30/2025 20:49:02] Starting over-model training v2...
+[Sun 11/30/2025 20:49:02] Loaded 12385 rows from prop_training_data.csv
+[Sun 11/30/2025 20:49:02] Labeled rows available for training: 2552
+[Sun 11/30/2025 20:49:02] Training GLOBAL model (all markets together)...
+[Sun 11/30/2025 20:49:02] GLOBAL - Training size: 2041, Test size: 511
+[Sun 11/30/2025 20:49:03] GLOBAL - Test AUC:   0.808
+[Sun 11/30/2025 20:49:03] GLOBAL - Brier:      0.1405 (lower is better)
+[Sun 11/30/2025 20:49:03] GLOBAL - Accuracy:   79.3%
+[Sun 11/30/2025 20:49:03] GLOBAL - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:49:03]   0.00–<0.50: 465 bets, 19.1% hits
+[Sun 11/30/2025 20:49:03]   0.50–<0.55: 14 bets, 50.0% hits
+[Sun 11/30/2025 20:49:03]   0.55–<0.60: 12 bets, 58.3% hits
+[Sun 11/30/2025 20:49:03]   0.60–<0.65: 9 bets, 66.7% hits
+[Sun 11/30/2025 20:49:03]   0.65–<0.70: 7 bets, 71.4% hits
+[Sun 11/30/2025 20:49:03]   0.70–<0.80: 4 bets, 100.0% hits
+[Sun 11/30/2025 20:49:03] Saved model to: over_model.pkl
+[Sun 11/30/2025 20:49:03] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sun 11/30/2025 20:49:03] Training per-market model for 'assists' (362 rows)...
+[Sun 11/30/2025 20:49:03] MARKET=assists - Training size: 289, Test size: 73
+[Sun 11/30/2025 20:49:04] MARKET=assists - Test AUC:   0.810
+[Sun 11/30/2025 20:49:04] MARKET=assists - Brier:      0.0749 (lower is better)
+[Sun 11/30/2025 20:49:04] MARKET=assists - Accuracy:   91.8%
+[Sun 11/30/2025 20:49:04] MARKET=assists - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:49:04]   0.00–<0.50: 72 bets, 8.3% hits
+[Sun 11/30/2025 20:49:04]   0.50–<0.55: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:49:04] Saved model to: over_model_assists.pkl
+[Sun 11/30/2025 20:49:04] Skipping per-market model for 'fs' (only 286 rows; need 300).
+[Sun 11/30/2025 20:49:04] Training per-market model for 'points' (431 rows)...
+[Sun 11/30/2025 20:49:04] MARKET=points - Training size: 344, Test size: 87
+[Sun 11/30/2025 20:49:04] MARKET=points - Test AUC:   0.604
+[Sun 11/30/2025 20:49:04] MARKET=points - Brier:      0.1764 (lower is better)
+[Sun 11/30/2025 20:49:04] MARKET=points - Accuracy:   75.9%
+[Sun 11/30/2025 20:49:04] MARKET=points - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:49:04]   0.00–<0.50: 84 bets, 22.6% hits
+[Sun 11/30/2025 20:49:04]   0.50–<0.55: 3 bets, 33.3% hits
+[Sun 11/30/2025 20:49:04] Saved model to: over_model_points.pkl
+[Sun 11/30/2025 20:49:04] Training per-market model for 'pra' (554 rows)...
+[Sun 11/30/2025 20:49:04] MARKET=pra - Training size: 443, Test size: 111
+[Sun 11/30/2025 20:49:05] MARKET=pra - Test AUC:   0.759
+[Sun 11/30/2025 20:49:05] MARKET=pra - Brier:      0.1694 (lower is better)
+[Sun 11/30/2025 20:49:05] MARKET=pra - Accuracy:   76.6%
+[Sun 11/30/2025 20:49:05] MARKET=pra - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:49:05]   0.00–<0.50: 101 bets, 23.8% hits
+[Sun 11/30/2025 20:49:05]   0.50–<0.55: 3 bets, 66.7% hits
+[Sun 11/30/2025 20:49:05]   0.55–<0.60: 4 bets, 100.0% hits
+[Sun 11/30/2025 20:49:05]   0.60–<0.65: 1 bets, 0.0% hits
+[Sun 11/30/2025 20:49:05]   0.70–<0.80: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:49:05]   0.80–<0.90: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:49:05] Saved model to: over_model_pra.pkl
+[Sun 11/30/2025 20:49:05] Training per-market model for 'ra' (472 rows)...
+[Sun 11/30/2025 20:49:05] MARKET=ra - Training size: 377, Test size: 95
+[Sun 11/30/2025 20:49:05] MARKET=ra - Test AUC:   0.718
+[Sun 11/30/2025 20:49:05] MARKET=ra - Brier:      0.1270 (lower is better)
+[Sun 11/30/2025 20:49:05] MARKET=ra - Accuracy:   86.3%
+[Sun 11/30/2025 20:49:05] MARKET=ra - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:49:05]   0.00–<0.50: 90 bets, 14.4% hits
+[Sun 11/30/2025 20:49:05]   0.50–<0.55: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:49:05]   0.55–<0.60: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:49:05]   0.60–<0.65: 2 bets, 100.0% hits
+[Sun 11/30/2025 20:49:05]   0.70–<0.80: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:49:05] Saved model to: over_model_ra.pkl
+[Sun 11/30/2025 20:49:05] Training per-market model for 'rebounds' (447 rows)...
+[Sun 11/30/2025 20:49:05] MARKET=rebounds - Training size: 357, Test size: 90
+[Sun 11/30/2025 20:49:06] MARKET=rebounds - Test AUC:   0.645
+[Sun 11/30/2025 20:49:06] MARKET=rebounds - Brier:      0.1229 (lower is better)
+[Sun 11/30/2025 20:49:06] MARKET=rebounds - Accuracy:   84.4%
+[Sun 11/30/2025 20:49:06] MARKET=rebounds - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:49:06]   0.00–<0.50: 90 bets, 15.6% hits
+[Sun 11/30/2025 20:49:06] Saved model to: over_model_rebounds.pkl
+[Sun 11/30/2025 20:49:06] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sun 11/30/2025 20:54:02] Starting over-model training v2...
+[Sun 11/30/2025 20:54:02] Loaded 12385 rows from prop_training_data.csv
+[Sun 11/30/2025 20:54:02] Labeled rows available for training: 2552
+[Sun 11/30/2025 20:54:02] Training GLOBAL model (all markets together)...
+[Sun 11/30/2025 20:54:02] GLOBAL - Training size: 2041, Test size: 511
+[Sun 11/30/2025 20:54:02] GLOBAL - Test AUC:   0.808
+[Sun 11/30/2025 20:54:02] GLOBAL - Brier:      0.1405 (lower is better)
+[Sun 11/30/2025 20:54:02] GLOBAL - Accuracy:   79.3%
+[Sun 11/30/2025 20:54:02] GLOBAL - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:54:02]   0.00–<0.50: 465 bets, 19.1% hits
+[Sun 11/30/2025 20:54:02]   0.50–<0.55: 14 bets, 50.0% hits
+[Sun 11/30/2025 20:54:02]   0.55–<0.60: 12 bets, 58.3% hits
+[Sun 11/30/2025 20:54:02]   0.60–<0.65: 9 bets, 66.7% hits
+[Sun 11/30/2025 20:54:02]   0.65–<0.70: 7 bets, 71.4% hits
+[Sun 11/30/2025 20:54:02]   0.70–<0.80: 4 bets, 100.0% hits
+[Sun 11/30/2025 20:54:03] Saved model to: over_model.pkl
+[Sun 11/30/2025 20:54:03] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sun 11/30/2025 20:54:03] Training per-market model for 'assists' (362 rows)...
+[Sun 11/30/2025 20:54:03] MARKET=assists - Training size: 289, Test size: 73
+[Sun 11/30/2025 20:54:03] MARKET=assists - Test AUC:   0.810
+[Sun 11/30/2025 20:54:03] MARKET=assists - Brier:      0.0749 (lower is better)
+[Sun 11/30/2025 20:54:03] MARKET=assists - Accuracy:   91.8%
+[Sun 11/30/2025 20:54:03] MARKET=assists - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:54:03]   0.00–<0.50: 72 bets, 8.3% hits
+[Sun 11/30/2025 20:54:03]   0.50–<0.55: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:54:03] Saved model to: over_model_assists.pkl
+[Sun 11/30/2025 20:54:03] Skipping per-market model for 'fs' (only 286 rows; need 300).
+[Sun 11/30/2025 20:54:03] Training per-market model for 'points' (431 rows)...
+[Sun 11/30/2025 20:54:03] MARKET=points - Training size: 344, Test size: 87
+[Sun 11/30/2025 20:54:04] MARKET=points - Test AUC:   0.604
+[Sun 11/30/2025 20:54:04] MARKET=points - Brier:      0.1764 (lower is better)
+[Sun 11/30/2025 20:54:04] MARKET=points - Accuracy:   75.9%
+[Sun 11/30/2025 20:54:04] MARKET=points - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:54:04]   0.00–<0.50: 84 bets, 22.6% hits
+[Sun 11/30/2025 20:54:04]   0.50–<0.55: 3 bets, 33.3% hits
+[Sun 11/30/2025 20:54:04] Saved model to: over_model_points.pkl
+[Sun 11/30/2025 20:54:04] Training per-market model for 'pra' (554 rows)...
+[Sun 11/30/2025 20:54:04] MARKET=pra - Training size: 443, Test size: 111
+[Sun 11/30/2025 20:54:04] MARKET=pra - Test AUC:   0.759
+[Sun 11/30/2025 20:54:04] MARKET=pra - Brier:      0.1694 (lower is better)
+[Sun 11/30/2025 20:54:04] MARKET=pra - Accuracy:   76.6%
+[Sun 11/30/2025 20:54:04] MARKET=pra - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:54:04]   0.00–<0.50: 101 bets, 23.8% hits
+[Sun 11/30/2025 20:54:04]   0.50–<0.55: 3 bets, 66.7% hits
+[Sun 11/30/2025 20:54:04]   0.55–<0.60: 4 bets, 100.0% hits
+[Sun 11/30/2025 20:54:04]   0.60–<0.65: 1 bets, 0.0% hits
+[Sun 11/30/2025 20:54:04]   0.70–<0.80: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:54:04]   0.80–<0.90: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:54:04] Saved model to: over_model_pra.pkl
+[Sun 11/30/2025 20:54:04] Training per-market model for 'ra' (472 rows)...
+[Sun 11/30/2025 20:54:04] MARKET=ra - Training size: 377, Test size: 95
+[Sun 11/30/2025 20:54:05] MARKET=ra - Test AUC:   0.718
+[Sun 11/30/2025 20:54:05] MARKET=ra - Brier:      0.1270 (lower is better)
+[Sun 11/30/2025 20:54:05] MARKET=ra - Accuracy:   86.3%
+[Sun 11/30/2025 20:54:05] MARKET=ra - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:54:05]   0.00–<0.50: 90 bets, 14.4% hits
+[Sun 11/30/2025 20:54:05]   0.50–<0.55: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:54:05]   0.55–<0.60: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:54:05]   0.60–<0.65: 2 bets, 100.0% hits
+[Sun 11/30/2025 20:54:05]   0.70–<0.80: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:54:05] Saved model to: over_model_ra.pkl
+[Sun 11/30/2025 20:54:05] Training per-market model for 'rebounds' (447 rows)...
+[Sun 11/30/2025 20:54:05] MARKET=rebounds - Training size: 357, Test size: 90
+[Sun 11/30/2025 20:54:05] MARKET=rebounds - Test AUC:   0.645
+[Sun 11/30/2025 20:54:05] MARKET=rebounds - Brier:      0.1229 (lower is better)
+[Sun 11/30/2025 20:54:05] MARKET=rebounds - Accuracy:   84.4%
+[Sun 11/30/2025 20:54:05] MARKET=rebounds - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:54:05]   0.00–<0.50: 90 bets, 15.6% hits
+[Sun 11/30/2025 20:54:05] Saved model to: over_model_rebounds.pkl
+[Sun 11/30/2025 20:54:05] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Sun 11/30/2025 20:56:18] Starting over-model training v2...
+[Sun 11/30/2025 20:56:18] Loaded 12385 rows from prop_training_data.csv
+[Sun 11/30/2025 20:56:18] Labeled rows available for training: 2552
+[Sun 11/30/2025 20:56:18] Training GLOBAL model (all markets together)...
+[Sun 11/30/2025 20:56:18] GLOBAL - Training size: 2041, Test size: 511
+[Sun 11/30/2025 20:56:19] GLOBAL - Test AUC:   0.808
+[Sun 11/30/2025 20:56:19] GLOBAL - Brier:      0.1405 (lower is better)
+[Sun 11/30/2025 20:56:19] GLOBAL - Accuracy:   79.3%
+[Sun 11/30/2025 20:56:19] GLOBAL - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:56:19]   0.00–<0.50: 465 bets, 19.1% hits
+[Sun 11/30/2025 20:56:19]   0.50–<0.55: 14 bets, 50.0% hits
+[Sun 11/30/2025 20:56:19]   0.55–<0.60: 12 bets, 58.3% hits
+[Sun 11/30/2025 20:56:19]   0.60–<0.65: 9 bets, 66.7% hits
+[Sun 11/30/2025 20:56:19]   0.65–<0.70: 7 bets, 71.4% hits
+[Sun 11/30/2025 20:56:19]   0.70–<0.80: 4 bets, 100.0% hits
+[Sun 11/30/2025 20:56:19] Saved model to: over_model.pkl
+[Sun 11/30/2025 20:56:19] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Sun 11/30/2025 20:56:19] Training per-market model for 'assists' (362 rows)...
+[Sun 11/30/2025 20:56:19] MARKET=assists - Training size: 289, Test size: 73
+[Sun 11/30/2025 20:56:20] MARKET=assists - Test AUC:   0.810
+[Sun 11/30/2025 20:56:20] MARKET=assists - Brier:      0.0749 (lower is better)
+[Sun 11/30/2025 20:56:20] MARKET=assists - Accuracy:   91.8%
+[Sun 11/30/2025 20:56:20] MARKET=assists - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:56:20]   0.00–<0.50: 72 bets, 8.3% hits
+[Sun 11/30/2025 20:56:20]   0.50–<0.55: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:56:20] Saved model to: over_model_assists.pkl
+[Sun 11/30/2025 20:56:20] Skipping per-market model for 'fs' (only 286 rows; need 300).
+[Sun 11/30/2025 20:56:20] Training per-market model for 'points' (431 rows)...
+[Sun 11/30/2025 20:56:20] MARKET=points - Training size: 344, Test size: 87
+[Sun 11/30/2025 20:56:20] MARKET=points - Test AUC:   0.604
+[Sun 11/30/2025 20:56:20] MARKET=points - Brier:      0.1764 (lower is better)
+[Sun 11/30/2025 20:56:20] MARKET=points - Accuracy:   75.9%
+[Sun 11/30/2025 20:56:20] MARKET=points - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:56:20]   0.00–<0.50: 84 bets, 22.6% hits
+[Sun 11/30/2025 20:56:20]   0.50–<0.55: 3 bets, 33.3% hits
+[Sun 11/30/2025 20:56:20] Saved model to: over_model_points.pkl
+[Sun 11/30/2025 20:56:20] Training per-market model for 'pra' (554 rows)...
+[Sun 11/30/2025 20:56:20] MARKET=pra - Training size: 443, Test size: 111
+[Sun 11/30/2025 20:56:21] MARKET=pra - Test AUC:   0.759
+[Sun 11/30/2025 20:56:21] MARKET=pra - Brier:      0.1694 (lower is better)
+[Sun 11/30/2025 20:56:21] MARKET=pra - Accuracy:   76.6%
+[Sun 11/30/2025 20:56:21] MARKET=pra - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:56:21]   0.00–<0.50: 101 bets, 23.8% hits
+[Sun 11/30/2025 20:56:21]   0.50–<0.55: 3 bets, 66.7% hits
+[Sun 11/30/2025 20:56:21]   0.55–<0.60: 4 bets, 100.0% hits
+[Sun 11/30/2025 20:56:21]   0.60–<0.65: 1 bets, 0.0% hits
+[Sun 11/30/2025 20:56:21]   0.70–<0.80: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:56:21]   0.80–<0.90: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:56:21] Saved model to: over_model_pra.pkl
+[Sun 11/30/2025 20:56:21] Training per-market model for 'ra' (472 rows)...
+[Sun 11/30/2025 20:56:21] MARKET=ra - Training size: 377, Test size: 95
+[Sun 11/30/2025 20:56:21] MARKET=ra - Test AUC:   0.718
+[Sun 11/30/2025 20:56:21] MARKET=ra - Brier:      0.1270 (lower is better)
+[Sun 11/30/2025 20:56:21] MARKET=ra - Accuracy:   86.3%
+[Sun 11/30/2025 20:56:21] MARKET=ra - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:56:21]   0.00–<0.50: 90 bets, 14.4% hits
+[Sun 11/30/2025 20:56:21]   0.50–<0.55: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:56:21]   0.55–<0.60: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:56:21]   0.60–<0.65: 2 bets, 100.0% hits
+[Sun 11/30/2025 20:56:21]   0.70–<0.80: 1 bets, 100.0% hits
+[Sun 11/30/2025 20:56:21] Saved model to: over_model_ra.pkl
+[Sun 11/30/2025 20:56:21] Training per-market model for 'rebounds' (447 rows)...
+[Sun 11/30/2025 20:56:21] MARKET=rebounds - Training size: 357, Test size: 90
+[Sun 11/30/2025 20:56:22] MARKET=rebounds - Test AUC:   0.645
+[Sun 11/30/2025 20:56:22] MARKET=rebounds - Brier:      0.1229 (lower is better)
+[Sun 11/30/2025 20:56:22] MARKET=rebounds - Accuracy:   84.4%
+[Sun 11/30/2025 20:56:22] MARKET=rebounds - Probability bucket calibration (test set):
+[Sun 11/30/2025 20:56:22]   0.00–<0.50: 90 bets, 15.6% hits
+[Sun 11/30/2025 20:56:22] Saved model to: over_model_rebounds.pkl
+[Sun 11/30/2025 20:56:22] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Mon 12/01/2025 05:54:46] Starting over-model training v2...
+[Mon 12/01/2025 05:54:46] Loaded 12879 rows from prop_training_data.csv
+[Mon 12/01/2025 05:54:46] Labeled rows available for training: 2552
+[Mon 12/01/2025 05:54:46] Training GLOBAL model (all markets together)...
+[Mon 12/01/2025 05:54:46] GLOBAL - Training size: 2041, Test size: 511
+[Mon 12/01/2025 05:54:47] GLOBAL - Test AUC:   0.808
+[Mon 12/01/2025 05:54:47] GLOBAL - Brier:      0.1405 (lower is better)
+[Mon 12/01/2025 05:54:47] GLOBAL - Accuracy:   79.3%
+[Mon 12/01/2025 05:54:47] GLOBAL - Probability bucket calibration (test set):
+[Mon 12/01/2025 05:54:47]   0.00–<0.50: 465 bets, 19.1% hits
+[Mon 12/01/2025 05:54:47]   0.50–<0.55: 14 bets, 50.0% hits
+[Mon 12/01/2025 05:54:47]   0.55–<0.60: 12 bets, 58.3% hits
+[Mon 12/01/2025 05:54:47]   0.60–<0.65: 9 bets, 66.7% hits
+[Mon 12/01/2025 05:54:47]   0.65–<0.70: 7 bets, 71.4% hits
+[Mon 12/01/2025 05:54:47]   0.70–<0.80: 4 bets, 100.0% hits
+[Mon 12/01/2025 05:54:47] Saved model to: over_model.pkl
+[Mon 12/01/2025 05:54:47] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Mon 12/01/2025 05:54:47] Training per-market model for 'assists' (362 rows)...
+[Mon 12/01/2025 05:54:47] MARKET=assists - Training size: 289, Test size: 73
+[Mon 12/01/2025 05:54:48] MARKET=assists - Test AUC:   0.810
+[Mon 12/01/2025 05:54:48] MARKET=assists - Brier:      0.0749 (lower is better)
+[Mon 12/01/2025 05:54:48] MARKET=assists - Accuracy:   91.8%
+[Mon 12/01/2025 05:54:48] MARKET=assists - Probability bucket calibration (test set):
+[Mon 12/01/2025 05:54:48]   0.00–<0.50: 72 bets, 8.3% hits
+[Mon 12/01/2025 05:54:48]   0.50–<0.55: 1 bets, 100.0% hits
+[Mon 12/01/2025 05:54:48] Saved model to: over_model_assists.pkl
+[Mon 12/01/2025 05:54:48] Skipping per-market model for 'fs' (only 286 rows; need 300).
+[Mon 12/01/2025 05:54:48] Training per-market model for 'points' (431 rows)...
+[Mon 12/01/2025 05:54:48] MARKET=points - Training size: 344, Test size: 87
+[Mon 12/01/2025 05:54:48] MARKET=points - Test AUC:   0.604
+[Mon 12/01/2025 05:54:48] MARKET=points - Brier:      0.1764 (lower is better)
+[Mon 12/01/2025 05:54:48] MARKET=points - Accuracy:   75.9%
+[Mon 12/01/2025 05:54:48] MARKET=points - Probability bucket calibration (test set):
+[Mon 12/01/2025 05:54:48]   0.00–<0.50: 84 bets, 22.6% hits
+[Mon 12/01/2025 05:54:48]   0.50–<0.55: 3 bets, 33.3% hits
+[Mon 12/01/2025 05:54:48] Saved model to: over_model_points.pkl
+[Mon 12/01/2025 05:54:48] Training per-market model for 'pra' (554 rows)...
+[Mon 12/01/2025 05:54:48] MARKET=pra - Training size: 443, Test size: 111
+[Mon 12/01/2025 05:54:49] MARKET=pra - Test AUC:   0.759
+[Mon 12/01/2025 05:54:49] MARKET=pra - Brier:      0.1694 (lower is better)
+[Mon 12/01/2025 05:54:49] MARKET=pra - Accuracy:   76.6%
+[Mon 12/01/2025 05:54:49] MARKET=pra - Probability bucket calibration (test set):
+[Mon 12/01/2025 05:54:49]   0.00–<0.50: 101 bets, 23.8% hits
+[Mon 12/01/2025 05:54:49]   0.50–<0.55: 3 bets, 66.7% hits
+[Mon 12/01/2025 05:54:49]   0.55–<0.60: 4 bets, 100.0% hits
+[Mon 12/01/2025 05:54:49]   0.60–<0.65: 1 bets, 0.0% hits
+[Mon 12/01/2025 05:54:49]   0.70–<0.80: 1 bets, 100.0% hits
+[Mon 12/01/2025 05:54:49]   0.80–<0.90: 1 bets, 100.0% hits
+[Mon 12/01/2025 05:54:49] Saved model to: over_model_pra.pkl
+[Mon 12/01/2025 05:54:49] Training per-market model for 'ra' (472 rows)...
+[Mon 12/01/2025 05:54:49] MARKET=ra - Training size: 377, Test size: 95
+[Mon 12/01/2025 05:54:49] MARKET=ra - Test AUC:   0.718
+[Mon 12/01/2025 05:54:49] MARKET=ra - Brier:      0.1270 (lower is better)
+[Mon 12/01/2025 05:54:49] MARKET=ra - Accuracy:   86.3%
+[Mon 12/01/2025 05:54:49] MARKET=ra - Probability bucket calibration (test set):
+[Mon 12/01/2025 05:54:49]   0.00–<0.50: 90 bets, 14.4% hits
+[Mon 12/01/2025 05:54:49]   0.50–<0.55: 1 bets, 100.0% hits
+[Mon 12/01/2025 05:54:49]   0.55–<0.60: 1 bets, 100.0% hits
+[Mon 12/01/2025 05:54:49]   0.60–<0.65: 2 bets, 100.0% hits
+[Mon 12/01/2025 05:54:49]   0.70–<0.80: 1 bets, 100.0% hits
+[Mon 12/01/2025 05:54:49] Saved model to: over_model_ra.pkl
+[Mon 12/01/2025 05:54:49] Training per-market model for 'rebounds' (447 rows)...
+[Mon 12/01/2025 05:54:49] MARKET=rebounds - Training size: 357, Test size: 90
+[Mon 12/01/2025 05:54:50] MARKET=rebounds - Test AUC:   0.645
+[Mon 12/01/2025 05:54:50] MARKET=rebounds - Brier:      0.1229 (lower is better)
+[Mon 12/01/2025 05:54:50] MARKET=rebounds - Accuracy:   84.4%
+[Mon 12/01/2025 05:54:50] MARKET=rebounds - Probability bucket calibration (test set):
+[Mon 12/01/2025 05:54:50]   0.00–<0.50: 90 bets, 15.6% hits
+[Mon 12/01/2025 05:54:50] Saved model to: over_model_rebounds.pkl
+[Mon 12/01/2025 05:54:50] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Tue 12/02/2025 07:24:12] Starting over-model training v2...
+[Tue 12/02/2025 07:24:13] Loaded 16607 rows from prop_training_data.csv
+[Tue 12/02/2025 07:24:13] Labeled rows available for training: 2552
+[Tue 12/02/2025 07:24:13] Training GLOBAL model (all markets together)...
+[Tue 12/02/2025 07:24:13] GLOBAL - Training size: 2041, Test size: 511
+[Tue 12/02/2025 07:24:13] GLOBAL - Test AUC:   0.808
+[Tue 12/02/2025 07:24:13] GLOBAL - Brier:      0.1405 (lower is better)
+[Tue 12/02/2025 07:24:13] GLOBAL - Accuracy:   79.3%
+[Tue 12/02/2025 07:24:13] GLOBAL - Probability bucket calibration (test set):
+[Tue 12/02/2025 07:24:13]   0.00–<0.50: 465 bets, 19.1% hits
+[Tue 12/02/2025 07:24:13]   0.50–<0.55: 14 bets, 50.0% hits
+[Tue 12/02/2025 07:24:13]   0.55–<0.60: 12 bets, 58.3% hits
+[Tue 12/02/2025 07:24:13]   0.60–<0.65: 9 bets, 66.7% hits
+[Tue 12/02/2025 07:24:13]   0.65–<0.70: 7 bets, 71.4% hits
+[Tue 12/02/2025 07:24:13]   0.70–<0.80: 4 bets, 100.0% hits
+[Tue 12/02/2025 07:24:13] Saved model to: over_model.pkl
+[Tue 12/02/2025 07:24:13] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Tue 12/02/2025 07:24:13] Training per-market model for 'assists' (362 rows)...
+[Tue 12/02/2025 07:24:13] MARKET=assists - Training size: 289, Test size: 73
+[Tue 12/02/2025 07:24:14] MARKET=assists - Test AUC:   0.810
+[Tue 12/02/2025 07:24:14] MARKET=assists - Brier:      0.0749 (lower is better)
+[Tue 12/02/2025 07:24:14] MARKET=assists - Accuracy:   91.8%
+[Tue 12/02/2025 07:24:14] MARKET=assists - Probability bucket calibration (test set):
+[Tue 12/02/2025 07:24:14]   0.00–<0.50: 72 bets, 8.3% hits
+[Tue 12/02/2025 07:24:14]   0.50–<0.55: 1 bets, 100.0% hits
+[Tue 12/02/2025 07:24:14] Saved model to: over_model_assists.pkl
+[Tue 12/02/2025 07:24:14] Skipping per-market model for 'fs' (only 286 rows; need 300).
+[Tue 12/02/2025 07:24:14] Training per-market model for 'points' (431 rows)...
+[Tue 12/02/2025 07:24:14] MARKET=points - Training size: 344, Test size: 87
+[Tue 12/02/2025 07:24:14] MARKET=points - Test AUC:   0.604
+[Tue 12/02/2025 07:24:14] MARKET=points - Brier:      0.1764 (lower is better)
+[Tue 12/02/2025 07:24:14] MARKET=points - Accuracy:   75.9%
+[Tue 12/02/2025 07:24:14] MARKET=points - Probability bucket calibration (test set):
+[Tue 12/02/2025 07:24:14]   0.00–<0.50: 84 bets, 22.6% hits
+[Tue 12/02/2025 07:24:14]   0.50–<0.55: 3 bets, 33.3% hits
+[Tue 12/02/2025 07:24:14] Saved model to: over_model_points.pkl
+[Tue 12/02/2025 07:24:15] Training per-market model for 'pra' (554 rows)...
+[Tue 12/02/2025 07:24:15] MARKET=pra - Training size: 443, Test size: 111
+[Tue 12/02/2025 07:24:15] MARKET=pra - Test AUC:   0.759
+[Tue 12/02/2025 07:24:15] MARKET=pra - Brier:      0.1694 (lower is better)
+[Tue 12/02/2025 07:24:15] MARKET=pra - Accuracy:   76.6%
+[Tue 12/02/2025 07:24:15] MARKET=pra - Probability bucket calibration (test set):
+[Tue 12/02/2025 07:24:15]   0.00–<0.50: 101 bets, 23.8% hits
+[Tue 12/02/2025 07:24:15]   0.50–<0.55: 3 bets, 66.7% hits
+[Tue 12/02/2025 07:24:15]   0.55–<0.60: 4 bets, 100.0% hits
+[Tue 12/02/2025 07:24:15]   0.60–<0.65: 1 bets, 0.0% hits
+[Tue 12/02/2025 07:24:15]   0.70–<0.80: 1 bets, 100.0% hits
+[Tue 12/02/2025 07:24:15]   0.80–<0.90: 1 bets, 100.0% hits
+[Tue 12/02/2025 07:24:15] Saved model to: over_model_pra.pkl
+[Tue 12/02/2025 07:24:15] Training per-market model for 'ra' (472 rows)...
+[Tue 12/02/2025 07:24:15] MARKET=ra - Training size: 377, Test size: 95
+[Tue 12/02/2025 07:24:16] MARKET=ra - Test AUC:   0.718
+[Tue 12/02/2025 07:24:16] MARKET=ra - Brier:      0.1270 (lower is better)
+[Tue 12/02/2025 07:24:16] MARKET=ra - Accuracy:   86.3%
+[Tue 12/02/2025 07:24:16] MARKET=ra - Probability bucket calibration (test set):
+[Tue 12/02/2025 07:24:16]   0.00–<0.50: 90 bets, 14.4% hits
+[Tue 12/02/2025 07:24:16]   0.50–<0.55: 1 bets, 100.0% hits
+[Tue 12/02/2025 07:24:16]   0.55–<0.60: 1 bets, 100.0% hits
+[Tue 12/02/2025 07:24:16]   0.60–<0.65: 2 bets, 100.0% hits
+[Tue 12/02/2025 07:24:16]   0.70–<0.80: 1 bets, 100.0% hits
+[Tue 12/02/2025 07:24:16] Saved model to: over_model_ra.pkl
+[Tue 12/02/2025 07:24:16] Training per-market model for 'rebounds' (447 rows)...
+[Tue 12/02/2025 07:24:16] MARKET=rebounds - Training size: 357, Test size: 90
+[Tue 12/02/2025 07:24:16] MARKET=rebounds - Test AUC:   0.645
+[Tue 12/02/2025 07:24:16] MARKET=rebounds - Brier:      0.1229 (lower is better)
+[Tue 12/02/2025 07:24:16] MARKET=rebounds - Accuracy:   84.4%
+[Tue 12/02/2025 07:24:16] MARKET=rebounds - Probability bucket calibration (test set):
+[Tue 12/02/2025 07:24:16]   0.00–<0.50: 90 bets, 15.6% hits
+[Tue 12/02/2025 07:24:16] Saved model to: over_model_rebounds.pkl
+[Tue 12/02/2025 07:24:16] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
+[Tue 12/02/2025 18:50:52] Starting over-model training v2...
+[Tue 12/02/2025 18:50:53] Loaded 16914 rows from prop_training_data.csv
+[Tue 12/02/2025 18:50:53] Labeled rows available for training: 2552
+[Tue 12/02/2025 18:50:53] Training GLOBAL model (all markets together)...
+[Tue 12/02/2025 18:50:53] GLOBAL - Training size: 2041, Test size: 511
+[Tue 12/02/2025 18:50:53] GLOBAL - Test AUC:   0.808
+[Tue 12/02/2025 18:50:53] GLOBAL - Brier:      0.1405 (lower is better)
+[Tue 12/02/2025 18:50:53] GLOBAL - Accuracy:   79.3%
+[Tue 12/02/2025 18:50:53] GLOBAL - Probability bucket calibration (test set):
+[Tue 12/02/2025 18:50:53]   0.00–<0.50: 465 bets, 19.1% hits
+[Tue 12/02/2025 18:50:53]   0.50–<0.55: 14 bets, 50.0% hits
+[Tue 12/02/2025 18:50:53]   0.55–<0.60: 12 bets, 58.3% hits
+[Tue 12/02/2025 18:50:53]   0.60–<0.65: 9 bets, 66.7% hits
+[Tue 12/02/2025 18:50:53]   0.65–<0.70: 7 bets, 71.4% hits
+[Tue 12/02/2025 18:50:53]   0.70–<0.80: 4 bets, 100.0% hits
+[Tue 12/02/2025 18:50:53] Saved model to: over_model.pkl
+[Tue 12/02/2025 18:50:53] Markets found in data: ['assists', 'fs', 'points', 'pra', 'ra', 'rebounds']
+[Tue 12/02/2025 18:50:53] Training per-market model for 'assists' (362 rows)...
+[Tue 12/02/2025 18:50:53] MARKET=assists - Training size: 289, Test size: 73
+[Tue 12/02/2025 18:50:54] MARKET=assists - Test AUC:   0.810
+[Tue 12/02/2025 18:50:54] MARKET=assists - Brier:      0.0749 (lower is better)
+[Tue 12/02/2025 18:50:54] MARKET=assists - Accuracy:   91.8%
+[Tue 12/02/2025 18:50:54] MARKET=assists - Probability bucket calibration (test set):
+[Tue 12/02/2025 18:50:54]   0.00–<0.50: 72 bets, 8.3% hits
+[Tue 12/02/2025 18:50:54]   0.50–<0.55: 1 bets, 100.0% hits
+[Tue 12/02/2025 18:50:54] Saved model to: over_model_assists.pkl
+[Tue 12/02/2025 18:50:54] Skipping per-market model for 'fs' (only 286 rows; need 300).
+[Tue 12/02/2025 18:50:54] Training per-market model for 'points' (431 rows)...
+[Tue 12/02/2025 18:50:54] MARKET=points - Training size: 344, Test size: 87
+[Tue 12/02/2025 18:50:54] MARKET=points - Test AUC:   0.604
+[Tue 12/02/2025 18:50:54] MARKET=points - Brier:      0.1764 (lower is better)
+[Tue 12/02/2025 18:50:54] MARKET=points - Accuracy:   75.9%
+[Tue 12/02/2025 18:50:54] MARKET=points - Probability bucket calibration (test set):
+[Tue 12/02/2025 18:50:54]   0.00–<0.50: 84 bets, 22.6% hits
+[Tue 12/02/2025 18:50:54]   0.50–<0.55: 3 bets, 33.3% hits
+[Tue 12/02/2025 18:50:55] Saved model to: over_model_points.pkl
+[Tue 12/02/2025 18:50:55] Training per-market model for 'pra' (554 rows)...
+[Tue 12/02/2025 18:50:55] MARKET=pra - Training size: 443, Test size: 111
+[Tue 12/02/2025 18:50:55] MARKET=pra - Test AUC:   0.759
+[Tue 12/02/2025 18:50:55] MARKET=pra - Brier:      0.1694 (lower is better)
+[Tue 12/02/2025 18:50:55] MARKET=pra - Accuracy:   76.6%
+[Tue 12/02/2025 18:50:55] MARKET=pra - Probability bucket calibration (test set):
+[Tue 12/02/2025 18:50:55]   0.00–<0.50: 101 bets, 23.8% hits
+[Tue 12/02/2025 18:50:55]   0.50–<0.55: 3 bets, 66.7% hits
+[Tue 12/02/2025 18:50:55]   0.55–<0.60: 4 bets, 100.0% hits
+[Tue 12/02/2025 18:50:55]   0.60–<0.65: 1 bets, 0.0% hits
+[Tue 12/02/2025 18:50:55]   0.70–<0.80: 1 bets, 100.0% hits
+[Tue 12/02/2025 18:50:55]   0.80–<0.90: 1 bets, 100.0% hits
+[Tue 12/02/2025 18:50:55] Saved model to: over_model_pra.pkl
+[Tue 12/02/2025 18:50:55] Training per-market model for 'ra' (472 rows)...
+[Tue 12/02/2025 18:50:55] MARKET=ra - Training size: 377, Test size: 95
+[Tue 12/02/2025 18:50:56] MARKET=ra - Test AUC:   0.718
+[Tue 12/02/2025 18:50:56] MARKET=ra - Brier:      0.1270 (lower is better)
+[Tue 12/02/2025 18:50:56] MARKET=ra - Accuracy:   86.3%
+[Tue 12/02/2025 18:50:56] MARKET=ra - Probability bucket calibration (test set):
+[Tue 12/02/2025 18:50:56]   0.00–<0.50: 90 bets, 14.4% hits
+[Tue 12/02/2025 18:50:56]   0.50–<0.55: 1 bets, 100.0% hits
+[Tue 12/02/2025 18:50:56]   0.55–<0.60: 1 bets, 100.0% hits
+[Tue 12/02/2025 18:50:56]   0.60–<0.65: 2 bets, 100.0% hits
+[Tue 12/02/2025 18:50:56]   0.70–<0.80: 1 bets, 100.0% hits
+[Tue 12/02/2025 18:50:56] Saved model to: over_model_ra.pkl
+[Tue 12/02/2025 18:50:56] Training per-market model for 'rebounds' (447 rows)...
+[Tue 12/02/2025 18:50:56] MARKET=rebounds - Training size: 357, Test size: 90
+[Tue 12/02/2025 18:50:56] MARKET=rebounds - Test AUC:   0.645
+[Tue 12/02/2025 18:50:56] MARKET=rebounds - Brier:      0.1229 (lower is better)
+[Tue 12/02/2025 18:50:56] MARKET=rebounds - Accuracy:   84.4%
+[Tue 12/02/2025 18:50:56] MARKET=rebounds - Probability bucket calibration (test set):
+[Tue 12/02/2025 18:50:56]   0.00–<0.50: 90 bets, 15.6% hits
+[Tue 12/02/2025 18:50:56] Saved model to: over_model_rebounds.pkl
+[Tue 12/02/2025 18:50:56] Done. Your Streamlit app will now use per-market models when available, and fall back to the global model otherwise.
